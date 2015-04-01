@@ -1,0 +1,85 @@
+% \usepackage[a4paper, hmargin=25mm, vmargin=30mm, top=20mm]{geometry}
+\usepackage[a4paper]{geometry}
+
+\usepackage{fancyhdr} % Customize the header and footer
+\usepackage{lastpage}
+\usepackage[linkcolor = blue, citecolor = blue, urlcolor = blue, colorlinks = true]{hyperref}
+
+\setcounter{secnumdepth}{0} % Suppress section numbering
+
+% \usepackage[proportional,scaled=1.064]{erewhon} % Use the Erewhon font
+% \usepackage[erewhon,vvarbb,bigdelims]{newtxmath} % Use the Erewhon font
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc}
+
+\usepackage[protrusion = true, expansion = true]{microtype}
+\usepackage{subdepth}
+
+
+\usepackage{xcolor}
+\definecolor{slateblue}{rgb}{0.17,0.22,0.34}
+
+\fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage\ of \pageref{LastPage}}} % Define a custom page style
+\pagestyle{plain} % Use the custom page style through the document
+\renewcommand{\headrulewidth}{0pt} % Disable the default header rule
+\renewcommand{\footrulewidth}{0pt} % Disable the default footer rule
+
+\makeatletter
+\newcommand\tabfill[1]{%
+\dimen@\linewidth%
+\advance\dimen@\@totalleftmargin%
+\advance\dimen@-\dimen\@curtab%
+\parbox[t]\dimen@{#1\ifhmode\strut\fi}%
+% or, to avoid stretching:
+% \parbox[t]\dimen@{\raggedright #1\ifhmode\strut\fi}%
+}
+
+\setlength\parindent{0pt} % Stop paragraph indentation
+
+\newenvironment{itemize-noindent}
+{\setlength{\leftmargini}{0em}\begin{itemize}}
+{\end{itemize}}
+
+\newcommand{\sqbullet}{~\vrule height 1ex width .8ex depth -.2ex} % Custom square bullet point definition
+
+\renewcommand{\title}[1]{
+{\huge{\color{slateblue}\textbf{#1}}}\\ % Header section name and color
+\rule{\textwidth}{0.5mm}\\ % Rule under the header
+}
+
+\newcommand{\job}[4]{
+    \begin{tabbing}
+        \hspace{3.5cm} \= \kill
+        \textbf{#1} \> #2\\
+        \> \textit{#3}\\
+        \>\begin{minipage}{\textwidth}
+            \vspace{2mm}
+            #4
+        \end{minipage}
+    \end{tabbing}
+    % \vspace{2mm}
+}
+
+\newcommand{\skillgroup}[2]{
+    \begin{tabbing}
+        \hspace{5mm} \= \kill
+        \sqbullet \>\+ \textbf{#1}\\
+        \begin{minipage}{\textwidth}
+            \vspace{2mm}
+            #2
+        \end{minipage}
+    \end{tabbing}
+}
+
+\newcommand{\project}[3]{
+    \begin{tabbing}
+        \hspace{3.5cm} \= \kill
+        \textbf{#1} \>\+ #2\\
+        \begin{minipage}{\textwidth}
+            \vspace{2mm}
+            #3
+        \end{minipage}
+    \end{tabbing}
+    \vspace{2mm}
+}
+

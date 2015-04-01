@@ -1,0 +1,148 @@
+\documentclass[10pt]{article}
+
+\input{cv_structure.tex}
+
+\usepackage{sectsty} % Allows customization of titles
+\sectionfont{\color{slateblue}} % Color section titles
+
+\begin{document}
+
+    \title{Elliot Marsden}
+
+    \parbox{0.5\textwidth}{
+        \begin{tabbing}
+            \hspace{3cm} \= \kill
+            \textbf{Address}\>50/3 Spottiswoode Street\\
+            \>Edinburgh, EH9 1DG\\
+            \textbf{Date of Birth}\>14/02/1989        
+        \end{tabbing}
+    }
+    \hfill
+    \parbox{0.5\textwidth}{
+        \begin{tabbing}
+            \hspace{2cm} \= \hspace{4cm} \= \kill
+            \textbf{Phone}\>+44 7979 637 865\\
+            \textbf{Email}\>\href{mailto:elliot.marsden@gmail.com}{elliot.marsden@gmail.com}\\
+        \end{tabbing}
+    }
+
+    \section{Education}
+
+        \project{2011 -- Present}{PhD in Soft Condensed Matter Physics, \href{http://www.ed.ac.uk/home}{University of Edinburgh}}{
+            \begin{itemize-noindent}
+                \item{\tabfill{Thesis on `The collective dynamics of self-propelled particles in confining environments', that is, on computer simulations of the movement of large numbers of bacteria in spaces with obstacles}}
+                \item{Code written mainly in Python}
+                \item{\tabfill{Publication of work in \textit{\href{http://dx.doi.org/10.1039/C3SM52358F}{Soft Matter}}, and on front cover of \textit{\href{http://dx.doi.org/10.1103/PhysRevLett.113.268101}{Physical Review Letters}}}}
+            \end{itemize-noindent}
+        }
+
+        \project{2007 -- 2011}{MPhys in Theoretical Physics, \href{http://www.dur.ac.uk/van-mildert.college}{Van Mildert College}, \href{http://www.dur.ac.uk}{Durham University}}{
+            \begin{itemize-noindent}
+                \item{Graduated 1$^\mathrm{st}$ Class with Honours}
+                \item{\tabfill{Thesis on `Computational Analysis of Shear Banding in Shear
+Startup and LAOS Regimes', that is, on the complex behaviour of polymeric fluids as they flow}}
+            \end{itemize-noindent}
+        }
+
+        \project{2000 -- 2007}{\href{http://www.crgs.org.uk}{Clitheroe Royal Grammar School and Sixth Form College}}{
+        }
+
+    \newpage
+
+    \section{Relevant work}
+
+        \project{2014 -- Present}{Website design and administration for artist \href{http://www.nicktighe.uk}{Nick Tighe}}{
+        }
+
+        \project{2014}{\href{http://edrecycle.elliotmarsden.com}{EdRecycle}}{
+            \tabfill{Created website to scrape the details of Edinburgh's recycling service from the council website and make it searchable by street.}
+
+            \begin{itemize-noindent}
+                \item{Data scraped and accessed using BeautifulSoup and SQLite}
+                \item{Website built using Flask and Bootstrap, and hosted on Heroku}
+            \end{itemize-noindent}
+        }
+
+        \project{2013}{TubeIt}{
+            \tabfill{Co-designed and wrote a prototype web application to find nearby pubs from a location and build a schematic pub crawl map in the style of the London Tube Map.}
+
+            \begin{itemize-noindent}
+                \item{Data obtained using Google Location API}
+                \item{Website built using Django, Bootstrap and D3.js}
+            \end{itemize-noindent}
+        }
+
+        \project{2012 -- Present}{Open source project contributions}{
+            \begin{itemize-noindent}
+                \item{\href{http://github.com/eddiejessup/transcrypt}{Sublime Text}}
+                \item{\href{http://github.com/orchestrate-io/porc}{Orchestrate}}
+                \item{\href{http://lammps.sandia.gov}{LAMMPS}}
+            \end{itemize-noindent}   
+        }
+
+        \project{12/2012 -- 03/2013}{\href{http://software-carpentry.org}{Software Carpentry} \href{http://software-carpentry.org/workshops}{Boot Camps}}{
+            \tabfill{Taught version control, Python and Unix skills to PhD students at workshops in Edinburgh and Bath.}
+        }
+
+        \project{2010}{Cadbury}{
+            \tabfill{Designed the control system for a newly installed confectionary processing machine. Performed simulations using Python to optimise deposition of material onto a conveyor belt.}
+        }
+
+    \newpage
+
+    \section{Skills}
+
+        \skillgroup{Programming Languages}
+        {
+            \textit{Python}\\
+            \textit{C}\\
+            \textit{C++}\\
+            \textit{Java}\\
+            \textit{HTML, CSS, JavaScript/CoffeeScript/jQuery}\\
+            \textit{SQL}\\
+            \textit{Fortran}
+        }
+
+        \skillgroup{Software Tools}
+        {
+            \textit{Unix}\\
+            \textit{Git, Mercurial} --- Version control\\
+            \textit{Django, Flask} --- Web application frameworks\\
+            \textit{MySQL, SQLite, Couchdb, Orchestrate} --- Database management systems\\
+            \textit{Heroku, Divshot} --- Web application cloud platforms\\
+            \textit{Bootstrap, Skeleton} --- CSS Frameworks\\
+            \textit{BeautifulSoup} --- HTML parsing\\
+            \textit{Numpy, Scipy, Pandas, Matplotlib} --- Scientific and numerical computing\\
+            \textit{Cython} --- Python code optimisation\\
+            \textit{3ds Max} --- 3D modelling and design
+        }
+
+
+        \skillgroup{Miscellaneous}
+        {
+            \textit{Full, clean UK Driving License}\\
+            \textit{Intermediate French} --- GCSE A$^*$ and private learning\\
+            \textit{Conversational German} --- Secondary school and one semester of an undergraduate course\\
+            \textit{Conversational Russian} --- One semester of Edinburgh's \href{http://www.ed.ac.uk/studying/short-courses/languages/for-all}{Languages for All} and private learning
+        }
+
+    \section{Employment}
+
+        \job{2011 -- 2014}{University of Edinburgh}{Teaching assistant (various courses)}{
+            \begin{itemize-noindent}
+                \item{`Scientific Programming in Java'}
+                \item{`Computational Research Methods'}
+            \end{itemize-noindent}
+        }
+
+        \job{2008}{\href{http://www.booths.co.uk}{Books supermarkets}}{Checkout operative}{
+        }
+
+        \job{2005 -- 2006}{\href{http://www.conceptpropertyclaims.co.uk}{Concept Solutions}}{Call centre operative}{
+        }
+
+    \section{References}
+
+        Available on request.
+
+\end{document}
