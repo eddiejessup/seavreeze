@@ -1,0 +1,11 @@
+.DS_Store
+*.aux
+*.toc
+*.loc
+*.lof
+*.log
+*.lot
+*.out
+*.bbl
+*.blg
+cv_elliot_marsden.pdf
