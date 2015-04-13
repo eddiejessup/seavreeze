@@ -1,0 +1,62 @@
+- example work
+    - user behaviour analysis, ad targeting
+    - flight reminder detail type app
+    - internationalization
+    - encouraging social network sharing
+- what they want
+    - exceptional software engineer:
+        - no formal background but always reading about design patterns, want to implement them
+        - lots of personal projects
+        - computational masters and phd
+    - automating menial tasks:
+        - joint tesco orders
+        - pantry project
+        - book-sharing
+        - transcrypt
+    - Previous experience in architectural patterns for large and high-scale web applications:
+        - done web applications small scale
+    - Innovative, adaptable and mindful
+        - have to self-generate ideas and solutions
+        - have to take ownership of work and decisions, papers uner scrutiny
+        - but also collaborative work so have to accommodate different approaches
+    - A want to continually learn and view failure as an opportunity
+        - look forward to learning about and getting the chance to use new tools
+        - act in multi-disciplinary environment, have be able to research unfamiliar areas independently
+        - have projects which put work into but just dont work (aidan stuff)
+    - An analytical mind and ability to apply scientific rigour through A/B Testing and Build/Measure/Learn cycles
+        - hard-science background, adapt to new discipline
+        - involves lots of analysis of large datasets
+    - Eager to make a significant impact and understand the user
+        - excited to see work being cited at conferences
+        - academic writing requires empathising with reader
+- skills they want
+    - Python: used primarily
+    - Java: taught multiple courses
+    - HTML, CSS, Javascript: used in personal projects, jquery
+    - Ruby: limited experience
+    - SQL: used databases in edrecycle
+    - C#: No experience
+    - AJAX, REST: Used in tesco project and google maps api
+    - Used version control:
+        - git extensively for many projects and phd
+        - find this cv on github!
+    - Fiddle, Selenium: no experience
+    - Mobile and mobile testing: no experience really
+    - LAMP stack
+        - Used Python, no PHP experience
+        - Used MySQL, SQLite, CouchDB
+    - Operating systems
+        - Familiar with Windows from a usage point of view, no development experience on the platform
+        - Used OSX personally last 2 years
+        - Used Linux personally for last 8 years, very comfortable in Unix-like environments
+- Something interesting about yourself
+    - i helped to make the filling in crunchie bars more even
+- Your favourite project at University
+    - work in understanding the distribution of bacteria in water droplets
+    - because involved collaborating with an experimentalist, good teamwork
+    - and had true complementarity of expertise:
+        - she in experimental technique and biology
+        - me in simulation techniques and mathematical modelling
+- An achievement you are proud of
+    - marathon
+- finishing thesis end of april
