@@ -38,52 +38,10 @@
 % \parbox[t]\dimen@{\raggedright #1\ifhmode\strut\fi}%
 }
 
-\setlength\parindent{0pt} % Stop paragraph indentation
-
-\newenvironment{itemize-noindent}
-{\setlength{\leftmargini}{0em}\begin{itemize}}
-{\end{itemize}}
-
-\newcommand{\sqbullet}{~\vrule height 1ex width .8ex depth -.2ex} % Custom square bullet point definition
+\usepackage{enumitem}
+\setlist[description]{leftmargin=\parindent,labelindent=\parindent}
 
 \renewcommand{\title}[1]{
 {\huge{\color{slateblue}\textbf{#1}}}\\ % Header section name and color
 \rule{\textwidth}{0.5mm}\\ % Rule under the header
 }
-
-\newcommand{\job}[4]{
-    \begin{tabbing}
-        \hspace{3.5cm} \= \kill
-        \textbf{#1} \> #2\\
-        \> \textit{#3}\\
-        \>\begin{minipage}{\textwidth}
-            \vspace{2mm}
-            #4
-        \end{minipage}
-    \end{tabbing}
-    % \vspace{2mm}
-}
-
-\newcommand{\skillgroup}[2]{
-    \begin{tabbing}
-        \hspace{5mm} \= \kill
-        \sqbullet \>\+ \textbf{#1}\\
-        \begin{minipage}{\textwidth}
-            \vspace{2mm}
-            #2
-        \end{minipage}
-    \end{tabbing}
-}
-
-\newcommand{\project}[3]{
-    \begin{tabbing}
-        \hspace{3.5cm} \= \kill
-        \textbf{#1} \>\+ #2\\
-        \begin{minipage}{\textwidth}
-            \vspace{2mm}
-            #3
-        \end{minipage}
-    \end{tabbing}
-    \vspace{2mm}
-}
-
