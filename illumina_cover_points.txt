@@ -1,0 +1,55 @@
+- potential to acquire skills in a broad range of computing technologies.
+    - enjoy learning new tools and skills
+- good attention to detail
+    - like formatting?
+- enjoys working in a highly collaborative and fast paced environment. 
+    - worked with dana
+    - open source
+
+responsibilities:
+- doing the analysis
+    - running simulations
+- improve or automate analysis workflows, with the scope to improve or automate them.
+    - like automating mundane tasks
+- Use and maintain analysis infrastructure, web reporting and documentation.
+    - like a bit of sys admin
+- write prototype code
+    - wrote all code from scratch
+
+essential:
+- practical solutions
+    - self-generated ideas and project responsibility
+- Confident in a Linux environment
+    - worked in linux inside and outside work
+- Practical experience with Python / Perl
+    - python language of choice
+- Relational databases and database API technologies such as ORM.
+    - done edrecycle
+    - tubeit django orm
+- Ability to deliver within fixed deadlines
+    - ?
+- interest in understanding biology and disease
+    - chose to enter biology through phd
+    - reading cell?
+    - enthusiastic about mathematical biology
+
+advantageous:
+- High-performance computing environment using SGE, LSF or Amazon EC2
+    - worked with tim
+- ability to learn quickly on the job
+    - spare time playing around with tools makes good at picking things up
+- version control and issue tracking
+    - use git extensively
+    - have used github based issue tracking on st plugin
+
+- say why leaving academia
+    - like science
+    - enjoy coding
+- say why like bioinformatics
+    - up and coming
+    - enthusiastic about mathematical biology
+    - seems like exciting area from outside
+- no degree in comp sci, soft eng or bioinformatics
+    - but in biology environment
+    - good software skills
+    - been in computational projects master and phd
