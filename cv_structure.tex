@@ -52,9 +52,12 @@
 \rule{\textwidth}{0.5mm}\\ % Rule under the header
 }
 
+\newlength{\myindent}
+\setlength{\myindent}{3.5cm}
+
 \newcommand{\job}[4]{
     \begin{tabbing}
-        \hspace{3.5cm} \= \kill
+        \hspace{\myindent} \= \kill
         \textbf{#1} \> #2\\
         \> \textit{#3}\\
         \>\begin{minipage}{\textwidth}
@@ -78,7 +81,7 @@
 
 \newcommand{\project}[3]{
     \begin{tabbing}
-        \hspace{3.5cm} \= \kill
+        \hspace{\myindent} \= \kill
         \textbf{#1} \>\+ #2\\
         \begin{minipage}{\textwidth}
             \vspace{2mm}
