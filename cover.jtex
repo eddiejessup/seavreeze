@@ -1,0 +1,21 @@
+\documentclass[10pt]{letter}
+
+\usepackage[a4paper]{geometry}
+\input{structure.tex}
+
+\addtolength{\medskipamount}{-1\medskipamount}
+
+\signature{<< name >>}
+
+\begin{document}
+
+    \begin{letter}{}
+
+        << cover >>
+
+        \closing{Regards,}
+
+    \end{letter}        
+
+\end{document}
+

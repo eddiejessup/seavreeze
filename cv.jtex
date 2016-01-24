@@ -1,0 +1,94 @@
+\documentclass[10pt]{article}
+
+\usepackage[a4paper, hmargin=25mm, vmargin=30mm, top=20mm]{geometry}
+\input{structure.tex}
+
+\usepackage{sectsty} % Allows customization of titles
+\sectionfont{\color{slateblue}} % Color section titles
+
+\begin{document}
+
+    \title{<< name >>}
+
+    \parbox{0.5\textwidth}{
+        \begin{tabbing}
+            \hspace{3cm} \= \kill
+            \textbf{Address}\><< address.street >>\\
+            \><<address.city >>, \smaller{<< address.postcode >>}\\
+            \textbf{Date of Birth}\><< date_of_birth >>\\
+        \end{tabbing}
+    }
+    \hfill
+    \parbox{0.5\textwidth}{
+        \begin{tabbing}
+            \hspace{2cm} \= \hspace{4cm} \= \kill
+            \textbf{Phone}\><< phone >>\\
+            \textbf{Email}\>\href{mailto:<< email >>}{<< email >>}\\
+            \textbf{Website}\>\href{http://<< website >>}{<< website >>}\\
+            \textbf{Github}\>\href{https://github.com/<< github_name >>}{@<< github_name >>}
+        \end{tabbing}
+    }
+
+    \section{Education}
+
+        <% for education in educations %>
+        \project{<< education.date >>}{<< education.title >>}{
+            <% if education.points %>
+            \begin{itemize-noindent}
+            <% for point in education.points %>
+                \item{\tabfill{<< point >>}}
+            <% endfor %>
+            \end{itemize-noindent}
+            <% endif %>
+        }
+        <% endfor %>
+
+    \section{Employment}
+
+        <% for job in jobs %>
+        \job{<< job.date >>}{<< job.employer >>}{<< job.role >>}{
+            <% if job.summary %>\tabfill{<< job.summary >>}<% endif %>
+            <% if job.points %>
+            \begin{itemize-noindent}
+            <% for point in job.points %>
+                \item{\tabfill{<< point >>}}
+            <% endfor %>
+            \end{itemize-noindent}
+            <% endif %>
+        }
+        <% endfor %>
+
+    \section{Skills}
+
+        <% for skill_section in skill_sections %>
+        \subsection{<< skill_section.title >>}
+        <% for skill in skill_section.skills %>
+        \skill{<< skill.title >>}{
+            <% if skill.summary %>\tabfill{<< skill.summary >>}<% endif %>
+            <% if skill.points %>
+            \begin{itemize-noindent}
+            <% for point in skill.points %>
+                \item{\tabfill{<< point >>}}
+            <% endfor %>
+            \end{itemize-noindent}
+            <% endif %>
+        }
+        <% endfor %>
+        <% endfor %>
+
+    \section{Experience}
+
+        <% for experience in experiences %>
+        \project{<< experience.date >>}{<< experience.title >>}{
+            <% if experience.summary %>\tabfill{<< experience.summary >>}<% endif %>
+            <% if experience.points %>
+            \begin{itemize-noindent}
+            <% for point in experience.points %>
+                \item{\tabfill{<< point >>}}
+            <% endfor %>
+            \end{itemize-noindent}
+            <% endif %>
+        }
+        <% endfor %>
+
+\end{document}

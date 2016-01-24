@@ -1,6 +1,3 @@
-% \usepackage[a4paper, hmargin=25mm, vmargin=30mm, top=20mm]{geometry}
-\usepackage[a4paper]{geometry}
-
 \usepackage{fancyhdr} % Customize the header and footer
 \usepackage{lastpage}
 \usepackage[linkcolor = blue, citecolor = blue, urlcolor = blue, colorlinks = true]{hyperref}
@@ -37,7 +34,7 @@
 % \parbox[t]\dimen@{\raggedright #1\ifhmode\strut\fi}%
 }
 
-\setlength\parindent{0pt} % Stop paragraph indentation
+% \setlength\parindent{0pt} % Stop paragraph indentation
 
 \usepackage{enumitem}
 \newenvironment{itemize-noindent}
@@ -64,14 +61,13 @@
             #4
         \end{minipage}
     \end{tabbing}
-    % \vspace{2mm}
 }
 
-\newcommand{\skillgroup}[2]{
+\newcommand{\skill}[2]{
     \begin{tabbing}
-        \hspace{5mm} \= \kill
-        \sqbullet \>\+ \textbf{#1}\\
-        \begin{minipage}{\textwidth}
+        \hspace{\myindent} \= \kill
+        \>\textbf{#1} \\
+        \>\begin{minipage}{\textwidth}
             \vspace{2mm}
             #2
         \end{minipage}
@@ -87,6 +83,5 @@
             #3
         \end{minipage}
     \end{tabbing}
-    \vspace{2mm}
 }
 

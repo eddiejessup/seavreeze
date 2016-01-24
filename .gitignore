@@ -10,3 +10,5 @@
 *.blg
 cv_elliot_marsden.pdf
 cover_elliot_marsden.pdf
+__pycache__/
+build/
