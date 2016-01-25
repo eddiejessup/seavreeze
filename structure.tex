@@ -1,6 +1,5 @@
 \usepackage{fancyhdr} % Customize the header and footer
 \usepackage{lastpage}
-\usepackage[linkcolor = blue, citecolor = blue, urlcolor = blue, colorlinks = true]{hyperref}
 
 \setcounter{secnumdepth}{0} % Suppress section numbering
 
@@ -16,8 +15,11 @@
 \usepackage{subdepth}
 
 
-\usepackage{xcolor}
+\usepackage[hyperref]{xcolor}
 \definecolor{slateblue}{rgb}{0.17,0.22,0.34}
+\definecolor{subtle_link}{HTML}{000085}
+
+\usepackage[linkcolor=subtle_link, citecolor=subtle_link, urlcolor=subtle_link, colorlinks=true]{hyperref}
 
 \fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage\ of \pageref{LastPage}}} % Define a custom page style
 \pagestyle{plain} % Use the custom page style through the document
