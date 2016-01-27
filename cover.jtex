@@ -10,10 +10,11 @@
 \begin{document}
 
     \begin{letter}{}
+        \opening{<< opening >>,}
 
         << cover >>
 
-        \closing{Regards,}
+        \closing{<< closing >>,}
 
     \end{letter}        
 

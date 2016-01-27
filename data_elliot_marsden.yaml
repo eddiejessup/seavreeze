@@ -70,9 +70,7 @@ skills_all:
         summary: 'Taught multiple courses to undergraduate students.'
     - &skill_html
         title: 'H\smaller{TML}, C\smaller{SS}, Javascript, CoffeeScript, jQuery'
-        points:
-            - 'Designed and maintain websites for artist \href{http://nicktighe.uk}{Nick Tighe}; \href{http://elliotmarsden.com}{personal website} and \href{http://blog.elliotmarsden.com}{personal blog}'
-            - 'Worked in front-end development in a business context'
+        summary: 'Designed and maintain websites for artist \href{http://nicktighe.uk}{Nick Tighe}; \href{http://elliotmarsden.com}{personal website} and \href{http://blog.elliotmarsden.com}{personal blog}'
     - &skill_OSes
         title: 'Operating Systems'
         summary: 'Entirely familiar with Linux, OS X and Windows environments.'
@@ -151,12 +149,12 @@ experiences_all:
     - &experience_open_source
         title: 'Open source contributions'
         date: '2013 – Present'
-        summary: 'Contributed to various projects, including,'
-        points:
-            - '\href{http://www.sublimetext.com}{Sublime Text}: Created text editor plugin, \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, written in Python, to allow in-place text encryption'
-            - '\href{http://github.com/orchestrate-io/porc}{Orchestrate}: Added Python A\smaller{PI} functionality'
-            - '\href{http://vpython.org}{VPython}: Fixed OS X compatibility'
-            - '\href{http://lammps.sandia.gov}{L\smaller{AMMPS}}: Added low-reynolds number self-propelled particle functionality to molecular dynamics package'
+        summary: 'Contributed to various projects, such as creating \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, a plugin written in Python for the text editor \href{http://www.sublimetext.com}{Sublime Text}, to allow in-place text encryption.'
+        # points:
+            # - ': Created text editor plugin, '
+            # - '\href{http://github.com/orchestrate-io/porc}{Orchestrate}: Added Python A\smaller{PI} functionality'
+            # - '\href{http://vpython.org}{VPython}: Fixed OS X compatibility'
+            # - '\href{http://lammps.sandia.gov}{L\smaller{AMMPS}}: Added low-reynolds number self-propelled particle functionality to molecular dynamics package'
     - &experience_crunchie
         title: 'Modelling and optimization'
         summary: 'In 2010, designed an improved control-system algorithm for the production of Crunchie material for \href{http://www.cadbury.co.uk/Cadbury}{Cadbury}.'
@@ -200,22 +198,20 @@ skill_sections:
             - *skill_language
             - *skill_communication
 experiences:
-    # - *experience_sequencing
+    - *experience_sequencing
     - *experience_open_source
     - *experience_teaching
     - *experience_web_applications
     # - *experience_crunchie
+opening: "Dear Sir/Madam"
+closing: "Yours sincerely"
 cover: |
-    \opening{To whom it may concern,}
+    I am writing to apply for the position of Data Scientist, in the Analytics group. I am currently a software developer at a company building a platform for analysing large sets of geo-spatial data. Before this I completed a PhD in computational biophysics, in the Physics department of Edinburgh University. I enjoy my current work, but feel I can better use my skills in quantitative analysis and scientific thinking in a more data-oriented role, and would relish the chance to move to a city such as Amsterdam. In these regards, this opportunity is one about which I'm very excited, and for which I feel I am extremely well qualified.
 
-    I am writing to apply for the position of Data Scientist. I feel enthusiastic about the aims of your company, and it seems like you have an incredibly promising product! I think I'm perfectly suited for this role due to my background in science, data analysis and software development, and my experience with the technologies you're using.
+    Through my PhD, as well as during my previous Masters degree in Theoretical Physics, I have developed the analytic skills necessary to deal with statistical and mathematical aspects of the work. My PhD involved writing and running Python programs to simulate large numbers of bacteria in confined spaces. It necessitated extensive analysis of the resulting large data-sets, as well as of experimental data from collaborators. This was done using Numpy and Pandas, with clustering analysis carried out on the data using Scikit-learn. As an example of such analysis, a significant part of my work involved accounting for subtle statistical biases introduced by imperfect microscope measurements of bacterial positions.
 
-    Last year I completed my PhD in computational biophysics in Edinburgh. This primarily involved: simulations of bacterial motion, written in Python and using numpy extensively; visualization of this data using V\smaller{TK}; and analysis of experimental data using pandas, which required hierarchical clustering of bacterial positions using scikit-learn.
+    In my position as a software developer, I have further deepened my familiarity with Pandas, through an independently driven project to allow interactive analysis of geo-spatial data by users of the product. Working on the back-end of a data-driven product also requires competency using S\smaller{QL}, and knowledge of best-practices in developing and maintaining a code-base. I am extremely capable in a wider range of software contexts, which I have extended through personal projects; for example, I am currently working on a web application to analyse and visualise government budget data, using the Python web framework Django, and the visualisation library d3.js.
 
-    Since my PhD, I've been working for the past 6 months as a back-end Django developer at a company based in Edinburgh providing a web platform for the analysis of geo-spatial data. A large part of this has involved designing an interactive analysis engine based around pandas. The general back-end work has required interaction with PostgreS\smaller{QL} databases, and working with a secondary web application which is built with Flask.
+    My PhD gave me many opportunities to develop my skills as a communicator of complex information, through talks at conferences and academic publications. The inter-disciplinary nature of my work required me to tailor the presentation of my work to a diverse range of audiences with varying backgrounds. In my current role, I communicate my progress to the team in daily meetings, which again requires a consideration of the audience since the group comprises both software developers and geo-spatial analysts.
 
-    Outside of work I've completed many personal software projects, most of which use Flask and Django. For example, in my spare time I'm currently developing a Django application to flexibly visualize government budget data using d3.js, and allow interactive analysis of the data. I'm familiar with NoS\smaller{QL} databases through another personal project doing simulations of network automata, which uses Redis. This also uses d3.js to dynamically visualize the network.
-
-    I'm enjoying my current job, however I chose it in part in order to stay in Edinburgh for personal reasons. This is no longer such a priority, so I'd like to take the opportunity to move to Berlin as it seems like a perfect fit!
-
-    I look forward to hearing from you.
+    As a part of the Analytics team at Booking.com, I look forward to contributing an enthusiastic and rational attitude, in order to infer practical and robust conclusions from large, disparate sets of data. I appreciate your consideration of my application, and look forward to hearing from you.
