@@ -9,6 +9,7 @@
 *.bbl
 *.blg
 cv_elliot_marsden.pdf
+cv_elliot_marsden.html
 cover_elliot_marsden.pdf
 __pycache__/
 build/

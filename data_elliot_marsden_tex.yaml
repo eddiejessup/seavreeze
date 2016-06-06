@@ -12,7 +12,8 @@ github_name: 'eddiejessup'
 educations_all:
     - &education_phd
         date: '2011 – 2015'
-        title: 'PhD in \href{http://www2.ph.ed.ac.uk/cmatter/living.html}{Soft Condensed Matter Physics}, \href{http://www.ed.ac.uk/home}{University of Edinburgh}'
+        qualification: 'PhD in \href{http://www2.ph.ed.ac.uk/cmatter/living.html}{Soft Condensed Matter Physics}'
+        location: '\href{http://www.ed.ac.uk/home}{University of Edinburgh}'
         points:
             - 'Thesis on \textit{The collective dynamics of self-propelled particles in confining environments}, that is, on the movement of large numbers of bacteria in enclosed spaces such as water droplets'
             - 'Code written mainly in Python, interfaced with numerics written in C'
@@ -21,14 +22,15 @@ educations_all:
             - 'Publication of work in \href{http://dx.doi.org/10.1039/C3SM52358F}{\textit{Soft Matter}}, and on the front cover of \href{http://dx.doi.org/10.1103/PhysRevLett.113.268101}{\textit{Physical Review Letters}}'
     - &education_higher
         date: '2007 – 2011'
-        title: 'MPhys in Theoretical Physics, \href{http://www.dur.ac.uk/van-mildert.college}{Van Mildert College}, \href{http://www.dur.ac.uk}{Durham University}'
+        qualification: 'MPhys in Theoretical Physics'
+        location: '\href{http://www.dur.ac.uk/van-mildert.college}{Van Mildert College}, \href{http://www.dur.ac.uk}{Durham University}'
         points:
             - 'Graduated First Class with Honours'
             - 'Thesis on \textit{Computational Analysis of Shear Banding in Shear Startup and L\smaller{AOS} Regimes}, that is, on the complex behaviour of polymeric fluids as they flow'
             - 'Contributed to publication in \href{http://dx.doi.org/10.1103/PhysRevLett.110.086001}{\textit{Physical Review Letters}}'
     - &education_secondary
         date: '2000 – 2007'
-        title: '\href{http://www.crgs.org.uk}{Clitheroe Royal Grammar School and Sixth Form College}'
+        location: '\href{http://www.crgs.org.uk}{Clitheroe Royal Grammar School and Sixth Form College}'
         points:
             - 'A Level: Maths (A), Physics (A), Chemistry (A) and General Studies (A)'
             - 'AS Level: Computing (A) and Critical Thinking (A)'

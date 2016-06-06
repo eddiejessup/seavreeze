@@ -1,0 +1,206 @@
+name: 'Elliot Marsden'
+email: 'elliot.marsden@gmail.com'
+website: 'elliotmarsden.com'
+github_name: 'eddiejessup'
+educations_all:
+    - &education_phd
+        date: '2011 – 2015'
+        qualification: 'PhD in <a href="http://www2.ph.ed.ac.uk/cmatter/living.html">Soft Condensed Matter Physics</a>'
+        location: '<a href="http://www.ed.ac.uk/home">University of Edinburgh</a>'
+        points:
+            - 'Thesis on <cite>The collective dynamics of self-propelled particles in confining environments</cite>, on the movement of large numbers of bacteria in enclosed spaces such as water droplets'
+            - 'Code written mainly in Python, interfaced with numerics written in C'
+            - 'Close collaboration with theoretical physicists and experimental biologists'
+            - 'Interdisciplinary work of interest to audiences ranging from statistical physics to molecular biology'
+            - 'Publication of work in <a href="http://dx.doi.org/10.1039/C3SM52358F"><cite>Soft Matter</cite></a>, and on the front cover of <a href="http://dx.doi.org/10.1103/PhysRevLett.113.268101"><cite>Physical Review Letters</cite></a>'
+    - &education_higher
+        date: '2007 – 2011'
+        qualification: 'MPhys in Theoretical Physics'
+        location: '<a href="http://www.dur.ac.uk/van-mildert.college">Van Mildert College</a>, <a href="http://www.dur.ac.uk">Durham University</a>'
+        points:
+            - 'Graduated First Class with Honours'
+            - 'Masters thesis on <cite>Computational Analysis of Shear Banding in Shear Startup and L<small>AOS</small> Regimes</cite>, that is, on the complex behaviour of polymeric fluids as they flow'
+            - 'Contributed to publication of <a href="//dx.doi.org/10.1103/PhysRevLett.110.086001"><cite>Criteria for Shear Banding in Time-Dependent Flows of Complex Fluids</cite></a>'
+    - &education_secondary
+        date: '2000 – 2007'
+        location: '<a href="http://www.crgs.org.uk">Clitheroe Royal Grammar School and Sixth Form College</a>'
+        points:
+            - 'A Level: Maths, Physics and Chemistry'
+            - 'AS Level: Computing'
+jobs_all:
+    - &job_booking
+        date: 'May 2016 – Present'
+        employer: '<a href="http://booking.com">Booking.com</a>'
+        role: 'Data Scientist'
+        summary: 'Analysis of large data-sets to identify trends to allow appropriate business decisions'
+    - &job_ecometrica
+        date: 'Sep 2015 – April 2016'
+        employer: '<a href="http://ecometrica.com">Ecometrica</a>'
+        role: 'Software Developer'
+        summary: 'Development of a web platform providing visualization and analysis of geo-spatial data.'
+        points:
+            - 'Back-end development using Django'
+            - 'Front-end development on the single-page application interface'
+            - 'Independently drove project creating a tool enabling sophisticated interactive analysis of geo-spatial data by users, through Python and Pandas'
+    - &job_edinburgh
+        date: '2011 – 2014'
+        employer: 'University of Edinburgh'
+        role: 'Teaching assistant'
+        summary: 'Taught on various courses, including,'
+        points:
+            - '<cite>Scientific Programming in Java</cite>'
+            - '<cite>Computational Research Methods</cite>'
+    - &job_booths
+        date: '2008'
+        employer: '<a href="http://www.booths.co.uk">Booths supermarkets</a>'
+        role: 'Checkout operative'
+    - &job_concept
+        date: '2005 – 2006'
+        employer: '<a href="http://www.conceptpropertyclaims.co.uk">Concept Solutions</a>'
+        role: 'Call centre operative'
+skills_all:
+    - &skill_python
+        title: 'Python'
+        summary: 'Experience in such areas as data analysis, data visualization, web scraping, web development, numerical processing and scientific modelling.'
+    - &skill_cpp
+        title: 'C, C<small>++</small>'
+        summary: 'Used for numerical solution of differential equations, molecular dynamics simulation, network automata.'
+    - &skill_java
+        title: 'Java'
+        summary: 'Taught multiple courses to undergraduate students.'
+    - &skill_html
+        title: 'H<small>TML</small>, C<small>SS</small>, Javascript, CoffeeScript, jQuery'
+        summary: 'Designed and maintain websites for artist <a href="http://nicktighe.uk">Nick Tighe</a>; <a href="http://elliotmarsden.com">personal website</a> and <a href="http://blog.elliotmarsden.com">personal blog</a>'
+    - &skill_OSes
+        title: 'Operating Systems'
+        summary: 'Entirely familiar with Linux, OS X and Windows environments.'
+    - &skill_versioning
+        title: 'Version control'
+        summary: 'Competent using <a href="http://git-scm.com">Git</a> and <a href="http://www.mercurial-scm.org">Mercurial</a>.'
+    - &skill_web_frameworks
+        title: 'Web application frameworks'
+        summary: 'Proficient using <a href="http://www.djangoproject.com">Django</a> and <a href="http://flask.pocoo.org">Flask</a>. Some experience using <a href="http://www.meteor.com">Meteor</a>.'
+    - &skill_databases
+        title: 'Persistent data storage'
+        summary: 'Experience interacting with <a href="http://www.mysql.com">MyS<small>QL</small></a>, <a href="http://www.postgresql.org">PostgreS<small>QL</small></a> and <a href="http://www.sqlite.org">S<small>QL</small>ite</a> databases. Also familiar using NoS<small>QL</small> solutions through <a href="http://www.mongodb.org">MongoD<small>B</small></a> and <a href="http://redis.io">Redis</a>, and Database-as-a-Service solutions through <a href="http://orchestrate.io">Orchestrate</a>.'
+    - &skill_web_hosting
+        title: 'Web hosting'
+        summary: 'Conventional servers, <a href="http://dashboard.heroku.com/login">Heroku</a> and <a href="http://aws.amazon.com">Amazon Web Services</a>.'
+    - &skill_frontend
+        title: 'Front-end technologies'
+        summary: '<a href="http://getbootstrap.com">Bootstrap</a>, <a href="http://getskeleton.com">Skeleton</a>, <a href="http://lesscss.org">L<small>ESS</small></a>, <a href="http://sass-lang.com">S<small>ASS</small></a>, <a href="http://jquery.com">jQuery</a>, <a href="http://handlebarsjs.com">Handlebars</a>, <a href="http://gulpjs.com">Gulp</a>.'
+    - &skill_documents
+        title: 'Document preparation'
+        summary: '<a href="http://www.latex-project.org">LaTeX</a>, <a href="http://pandoc.org">Pandoc</a>, <a href="http://jinja.pocoo.org">Jinja</a>.'
+    - &skill_3d_modelling
+        title: '3D modelling and design'
+        summary: '<a href="http://www.autodesk.co.uk/products/autodesk-3ds-max">3ds Max</a>.'
+    - &skill_numerics
+        title: 'Scientific and numerical computing'
+        summary: '<a href="http://www.numpy.org">Numpy</a>, <a href="http://www.ctcms.nist.gov/fipy">FiPy</a>, <a href="http://networkx.github.io">NetworkX</a>.'
+    - &skill_optimization
+        title: 'Program optimization'
+        summary: '<a href="http://cython.org">Cython</a>, <a href="http://www.boost.org/doc/libs/1_60_0/libs/python/doc/html/index.html">Boost.Python</a>.'
+    - &skill_data_analysis_tools
+        title: 'Data analysis'
+        summary: '<a href="http://pandas.pydata.org">Pandas</a>, <a href="http://www.scipy.org">Scipy</a>, <a href="http://scikit-learn.org">Scikit-learn</a>.'
+    - &skill_visualization
+        title: 'Data visualization'
+        summary: '<a href="http://matplotlib.org">Matplotlib</a>, <a href="http://d3js.org">d3.js</a>, <a href="http://www.vtk.org">V<small>TK</small></a>, <a href="http://www.highcharts.com">Highcharts</a>.'
+    - &skill_theory
+        title: 'Theory'
+        points:
+            - 'Mathematics: Competent in areas including calculus, geometry, differential equations and graph theory'
+            - 'Computing: Familiar with complexity theory, algorithm analysis and data structures'
+            - 'Data analysis and statistics: Experienced at understanding data using methods such as frequency analysis, data clustering, model fitting, machine learning and regression analysis'
+    - &skill_transport
+        title: 'Transport'
+        summary: 'Full, clean UK Driving License.'
+    - &skill_language
+        title: 'Language'
+        points:
+            - "Intermediate French: G<small>CSE</small> A<sup>*</sup> and private learning"
+            - 'Novice German: Secondary school and one semester of an undergraduate course'
+            - 'Novice Russian: One semester of Edinburgh''s <a href="http://www.ed.ac.uk/studying/short-courses/languages/for-all">Languages for All</a> and private learning'
+    - &skill_communication
+        title: 'Communication'
+        points:
+            - 'Given talks at conferences, including at <a href="http://ist.ac.at/stochastic-biology"><cite>Stochastic Biology: from Cells to Populations</cite></a>; as an invited speaker at the <a href="http://www.nbi.ku.dk/english/research/biophysics">Niels Bohr Institute</a> and at the <a href="http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx">N<small>ETADIS</small> Summer School</a>'
+            - 'Presented seminars, journal clubs and theory clubs within the Edinburgh research group'
+            - 'First prize for <cite>Bacterial Chemotaxis in Confining Geometries</cite> in annual PhD poster competition at the University of Edinburgh'
+experiences_all:
+    - &experience_teaching
+        title: 'Teaching'
+        date: '2013'
+        summary: 'Taught version control, Python and Linux skills to PhD students at <a href="http://software-carpentry.org">Software Carpentry</a> <a href="http://software-carpentry.org/workshops">Boot Camps</a> in Edinburgh and Bath.'
+    - &experience_sequencing
+        title: 'Sequence data analysis'
+        date: '2014'
+        summary: 'Worked with collaborators during PhD to carry out D<small>NA</small> sequencing.'
+        points:
+            - 'Analysed using bio-informatics software <a href="http://qiime.org">Q<small>IIME</small></a>'
+            - 'Processed using cloud computing platform <a href="http://aws.amazon.com/ec2">Amazon E<small>C2</small></a>'
+    - &experience_web_applications
+        title: 'Web application development'
+        date: '2012 – 2014'
+        points:
+            - "Developed web application, <cite>EdRecycle</cite>, presenting a calendar of Edinburgh's recycling collection, customized by street"
+            - 'Co-designed and wrote a prototype web application, <cite>Tube-it</cite>, to build a schematic London Tube-style map for a location based on drinking locations obtained from the Google Maps A<small>PI</small>'
+    - &experience_open_source
+        title: 'Open source contributions'
+        date: '2013 – Present'
+        summary: 'Contributed to various projects, such as creating <a href="https://packagecontrol.io/packages/Transcrypt"><cite>Transcrypt</cite></a>, a plugin written in Python for the text editor <a href="http://www.sublimetext.com">Sublime Text</a>, to allow in-place text encryption.'
+        # points:
+            # - ': Created text editor plugin, '
+            # - '<a href="http://github.com/orchestrate-io/porc">Orchestrate</a>: Added Python A<small>PI</small> functionality'
+            # - '<a href="http://vpython.org">VPython</a>: Fixed OS X compatibility'
+            # - '<a href="http://lammps.sandia.gov">L<small>AMMPS</small></a>: Added low-reynolds number self-propelled particle functionality to molecular dynamics package'
+    - &experience_crunchie
+        title: 'Modelling and optimization'
+        summary: 'In 2010, designed an improved control-system algorithm for the production of Crunchie material for <a href="http://www.cadbury.co.uk/Cadbury">Cadbury</a>.'
+educations:
+    - *education_phd
+    - *education_higher
+    # - *education_secondary
+jobs:
+    - *job_booking
+    - *job_ecometrica
+    - *job_edinburgh
+    # - *job_booths
+    # - *job_concept
+skill_sections:
+    -
+        title: 'Programming Languages'
+        skills:
+            - *skill_python
+            - *skill_cpp
+            - *skill_java
+            - *skill_html
+    -
+        title: Software
+        skills:
+            - *skill_OSes
+            - *skill_versioning
+            - *skill_web_frameworks
+            - *skill_databases
+            - *skill_web_hosting
+            - *skill_frontend
+            - *skill_documents
+            # - *skill_3d_modelling
+            - *skill_numerics
+            - *skill_optimization
+            - *skill_data_analysis_tools
+            - *skill_visualization
+    -
+        title: 'Miscellaneous'
+        skills:
+            - *skill_theory
+            - *skill_transport
+            - *skill_language
+            - *skill_communication
+experiences:
+    - *experience_sequencing
+    - *experience_open_source
+    - *experience_teaching
+    - *experience_web_applications
+    # - *experience_crunchie

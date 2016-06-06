@@ -33,7 +33,7 @@
     \section{Education}
 
         <% for education in educations %>
-        \project{<< education.date >>}{<< education.title >>}{
+        \project{<< education.date >>}{<% if education.qualification %><< education.qualification >>, <% endif %><< education.location >>}{
             <% if education.points %>
             \begin{itemize-noindent}
             <% for point in education.points %>

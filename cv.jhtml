@@ -10,7 +10,7 @@
                     {% for education in educations %}
                     <li>
                         <div class="title">
-                            {{ education.date }}: {{ education.title }}
+                            {{ education.date }}{% if education.qualification %}: {{ education.qualification }}{% endif %}
                         </div>
                         <div class="detail">
                             {{ education.location }}
@@ -63,7 +63,7 @@
                                 </div>
                                 {% if skill.summary %}
                                 <div class="description">
-                                    Experience in such areas as numerical processing, scientific modelling, data analysis, data visualization, web scraping and web development.
+                                    {{ skill.summary }}
                                 </div>
                                 {% endif %}
                                 {% if skill.points %}
