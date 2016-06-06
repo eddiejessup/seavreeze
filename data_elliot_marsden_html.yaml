@@ -107,27 +107,30 @@ skills_all:
     - &skill_visualization
         title: 'Data visualization'
         summary: '<a href="http://matplotlib.org">Matplotlib</a>, <a href="http://d3js.org">d3.js</a>, <a href="http://www.vtk.org">V<small>TK</small></a>, <a href="http://www.highcharts.com">Highcharts</a>.'
-    - &skill_theory
-        title: 'Theory'
-        points:
-            - 'Mathematics: Competent in areas including calculus, geometry, differential equations and graph theory'
-            - 'Computing: Familiar with complexity theory, algorithm analysis and data structures'
-            - 'Data analysis and statistics: Experienced at understanding data using methods such as frequency analysis, data clustering, model fitting, machine learning and regression analysis'
-    - &skill_transport
-        title: 'Transport'
-        summary: 'Full, clean UK Driving License.'
-    - &skill_language
-        title: 'Language'
-        points:
-            - "Intermediate French: G<small>CSE</small> A<sup>*</sup> and private learning"
-            - 'Novice German: Secondary school and one semester of an undergraduate course'
-            - 'Novice Russian: One semester of Edinburgh''s <a href="http://www.ed.ac.uk/studying/short-courses/languages/for-all">Languages for All</a> and private learning'
+    - &skill_maths
+        title: Mathematics
+        summary: Competent in areas including calculus, geometry, differential equations and graph theory
+    - &skill_computing
+        title: Computing
+        summary: Familiar with complexity theory, algorithm analysis and data structures
+    - &skill_stats
+        title: Data analysis and statistics
+        summary: Experienced at understanding data using methods such as frequency analysis, data clustering, model fitting, machine learning and regression analysis
+    - &skill_french
+        title: Intermediate French
+        summary: G<small>CSE</small> A<sup>*</sup> and private learning
+    - &skill_german
+        title: Novice German
+        summary: Secondary school and one semester of an undergraduate course
+    - &skill_russian
+        title: Novice Russian
+        summary: One semester of Edinburgh''s <a href="http://www.ed.ac.uk/studying/short-courses/languages/for-all">Languages for All</a> and private learning
     - &skill_communication
         title: 'Communication'
-        points:
-            - 'Given talks at conferences, including at <a href="http://ist.ac.at/stochastic-biology"><cite>Stochastic Biology: from Cells to Populations</cite></a>; as an invited speaker at the <a href="http://www.nbi.ku.dk/english/research/biophysics">Niels Bohr Institute</a> and at the <a href="http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx">N<small>ETADIS</small> Summer School</a>'
-            - 'Presented seminars, journal clubs and theory clubs within the Edinburgh research group'
-            - 'First prize for <cite>Bacterial Chemotaxis in Confining Geometries</cite> in annual PhD poster competition at the University of Edinburgh'
+        summary: 'Given talks at conferences, including at <a href="http://ist.ac.at/stochastic-biology"><cite>Stochastic Biology: from Cells to Populations</cite></a>; as an invited speaker at the <a href="http://www.nbi.ku.dk/english/research/biophysics">Niels Bohr Institute</a> and at the <a href="http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx">N<small>ETADIS</small> Summer School</a>, as well as presenting seminars, journal clubs and theory clubs within the Edinburgh research group. Awarded first prize for <cite>Bacterial Chemotaxis in Confining Geometries</cite> in annual PhD poster competition at the University of Edinburgh'
+    - &skill_transport
+        title: Transport
+        summary: Full, clean UK Driving License
 experiences_all:
     - &experience_teaching
         title: 'Teaching'
@@ -192,12 +195,22 @@ skill_sections:
             - *skill_data_analysis_tools
             - *skill_visualization
     -
+        title: Theory
+        skills:
+            - *skill_maths
+            - *skill_computing
+            - *skill_stats
+    -
+        title: Language
+        skills:
+            - *skill_french
+            - *skill_german
+            - *skill_russian
+    -
         title: 'Miscellaneous'
         skills:
-            - *skill_theory
-            - *skill_transport
-            - *skill_language
             - *skill_communication
+            - *skill_transport
 experiences:
     - *experience_sequencing
     - *experience_open_source
