@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <ul>
+            <li><h2>Education</h2>
+                <ul class="section">
+                    {% for education in educations %}
+                    <li>
+                        <div class="title">
+                            {{ education.date }}: {{ education.title }}
+                        </div>
+                        <div class="detail">
+                            {{ education.location }}
+                        </div>
+                        {% if education.points %}
+                        <div class="description">
+                            <ul>
+                            {% for point in education.points %}
+                                <li>{{ point }}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li><h2>Employment</h2>
+                <ul class="section">
+                    {% for job in jobs %}
+                    <li>
+                        <div class="title">
+                            {{ job.date }}: {{ job.role }}
+                        </div>
+                        <div class="detail">
+                            {{ job.employer }}
+                        </div>
+                        {% if job.points %}
+                        <div class="description">
+                            <ul>
+                            {% for point in job.points %}
+                                <li>{{ point }}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li><h2>Skills</h2>
+                <ul class="section">
+                    {% for skill_section in skill_sections %}
+                    <li><h3>{{ skill_section.title }}</h3>
+                        <ul>
+                            {% for skill in skill_section.skills %}
+                            <li>
+                                <div class="title">
+                                    {{ skill.title }}
+                                </div>
+                                {% if skill.summary %}
+                                <div class="description">
+                                    Experience in such areas as numerical processing, scientific modelling, data analysis, data visualization, web scraping and web development.
+                                </div>
+                                {% endif %}
+                                {% if skill.points %}
+                                    <ul>
+                                        {% for point in skill.points %}
+                                        <li>{{ point }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li><h2>Experience</h2>
+                <ul class="section">
+                    {% for experience in experiences %}
+                    <li>
+                        <div class="title">
+                            {{ experience.date }}: {{ experience.title }}
+                        </div>
+                        <div class="description">
+                            {{ experience.summary }}
+                            {% if experience.points %}
+                            <ul>
+                                {% for point in experience.points %}
+                                <li>{{ point }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        </ul>
+
+    </body>
+</html>
