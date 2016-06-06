@@ -1,11 +1,12 @@
 name: 'Elliot Marsden'
 date_of_birth: '1989-02-14'
 address:
-    street: '10/3 Forbes Road'
-    city: 'Edinburgh'
-    postcode: 'EH10 4ED'
+    street: 'Sarphatistraat 76/3'
+    city: 'Amsterdam'
+    postcode: '1018 GS'
+    country: Netherlands
 email: 'elliot.marsden@gmail.com'
-phone: '+44 7979 637 865'
+phone: '+31 644481822'
 website: 'elliotmarsden.com'
 github_name: 'eddiejessup'
 educations_all:
@@ -33,8 +34,13 @@ educations_all:
             - 'AS Level: Computing (A) and Critical Thinking (A)'
             - 'G\smaller{CSE}: 3 A$^*$s, 5 As and 2 Bs'
 jobs_all:
+    - &job_booking
+        date: 'May 2016 – Present'
+        employer: '\href{http://booking.com}{Booking.com}'
+        role: 'Data Scientist'
+        summary: 'Analysis of large data-sets to identify trends to allow appropriate business decisions'
     - &job_ecometrica
-        date: 'Sep 2015 – Present'
+        date: 'Sep 2015 – April 2016'
         employer: '\href{http://ecometrica.com}{Ecometrica}'
         role: 'Software Developer'
         summary: 'Development of a web platform providing visualization and analysis of geo-spatial data.'
@@ -163,6 +169,7 @@ educations:
     - *education_higher
     # - *education_secondary
 jobs:
+    - *job_booking
     - *job_ecometrica
     - *job_edinburgh
     # - *job_booths

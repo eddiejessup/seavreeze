@@ -14,7 +14,8 @@
         \begin{tabbing}
             \hspace{3cm} \= \kill
             \textbf{Address}\><< address.street >>\\
-            \><<address.city >>, \smaller{<< address.postcode >>}\\
+            \><<address.city >>, << address.postcode >>,\\
+            \><<address.country >>\\
             \textbf{Date of Birth}\><< date_of_birth >>\\
         \end{tabbing}
     }
