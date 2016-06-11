@@ -30,6 +30,12 @@
         \end{tabbing}
     }
 
+    <% if summary %>
+    \begin{center}
+        \emph{<< summary >>}
+    \end{center}
+    <% endif %>
+
     \section{Education}
 
         <% for education in educations %>

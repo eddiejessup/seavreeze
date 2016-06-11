@@ -9,6 +9,7 @@ email: 'elliot.marsden@gmail.com'
 phone: '+31 644481822'
 website: 'elliotmarsden.com'
 github_name: 'eddiejessup'
+summary: ''
 educations_all:
     - &education_phd
         date: '2011 – 2015'
