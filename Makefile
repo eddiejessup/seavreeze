@@ -1,11 +1,11 @@
 PY=python3
 TEX=lualatex
 
+NAME=elliot_marsden
 TEX_BUILD_FILE=build_tex.py
 HTML_BUILD_FILE=build_html.py
 DATA_HTML_FILE=data_$(NAME)_html.yaml
 DATA_TEX_FILE=data_$(NAME)_tex.yaml
-NAME=elliot_marsden
 CV_TEX_TEMPLATE_FILE=cv.jtex
 CV_HTML_TEMPLATE_FILE=cv.jhtml
 COVER_TEX_TEMPLATE_FILE=cover.jtex
