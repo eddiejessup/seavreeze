@@ -94,13 +94,10 @@ skills_all:
         summary: 'Proficient using \href{http://www.djangoproject.com}{Django} and \href{http://flask.pocoo.org}{Flask}. Some experience using \href{http://www.meteor.com}{Meteor}.'
     - &skill_databases
         title: 'Persistent data storage'
-        summary: 'Experience interacting with \href{http://www.mysql.com}{MyS\smaller{QL}} and \href{http://www.postgresql.org}{PostgreS\smaller{QL}} databases. Also familiar with NoS\smaller{QL} solutions through \href{http://www.mongodb.org}{MongoD\smaller{B}} and \href{http://redis.io}{Redis}, and metric storage through \href{https://graphiteapp.org}{Graphite}'
-    - &skill_web_hosting
-        title: 'Web hosting'
-        summary: 'Conventional servers, \href{http://dashboard.heroku.com/login}{Heroku} and \href{http://aws.amazon.com}{Amazon Web Services}.'
+        summary: 'Experience interacting with \href{http://www.mysql.com}{MyS\smaller{QL}} and \href{http://www.postgresql.org}{PostgreS\smaller{QL}} databases. Also familiar with NoS\smaller{QL} solutions through \href{http://www.mongodb.org}{MongoD\smaller{B}} and \href{http://redis.io}{Redis}, and metric storage through \href{https://graphiteapp.org}{Graphite}.'
     - &skill_aws
         title: 'Amazon Web Services'
-        summary: 'Experience using A\smaller{WS} for database storage (\smaller{RDS}), caching (Elasticache), storage (S3), hosting (E\smaller{C2}) and task scheduling (Lambda)'
+        summary: 'Experience using A\smaller{WS} for database storage (\smaller{RDS}), caching (Elasticache), storage (S3), hosting (E\smaller{C2}) and task scheduling (Lambda).'
     - &skill_frontend
         title: 'Front-end technologies'
         summary: '\href{http://getbootstrap.com}{Bootstrap}, \href{http://lesscss.org}{L\smaller{ESS}}, \href{http://sass-lang.com}{S\smaller{ASS}}, \href{http://jquery.com}{jQuery}, \href{http://handlebarsjs.com}{Handlebars}, \href{http://gulpjs.com}{Gulp}.'
@@ -202,7 +199,6 @@ skill_sections:
             - *skill_visualization
             - *skill_aws
             - *skill_web_frameworks
-            # - *skill_web_hosting
             - *skill_frontend
             # - *skill_documents
             # - *skill_3d_modelling
