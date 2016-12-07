@@ -118,7 +118,7 @@ skills_all:
         summary: '\href{http://pandas.pydata.org}{Pandas}, \href{http://www.scipy.org}{Scipy}, \href{http://scikit-learn.org}{Scikit-learn}.'
     - &skill_visualization
         title: 'Data visualization'
-        summary: '\href{http://matplotlib.org}{Matplotlib}, \href{http://bokeh.pydata.org}{Bokeh}, \href{http://d3js.org}{d3.js}, \href{http://grafana.org}{Grafana}, \href{http://www.tableau.com}{Tableau}'
+        summary: '\href{http://matplotlib.org}{Matplotlib}, \href{http://bokeh.pydata.org}{Bokeh}, \href{http://d3js.org}{d3.js}, \href{http://grafana.org}{Grafana}, \href{http://www.tableau.com}{Tableau}.'
     - &skill_theory
         title: 'Theory'
         points:
