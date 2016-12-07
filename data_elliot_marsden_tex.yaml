@@ -68,6 +68,9 @@ jobs_all:
         employer: '\href{http://www.conceptpropertyclaims.co.uk}{Concept Solutions}'
         role: 'Call centre operative'
 skills_all:
+    - &skill_bigdata
+        title: '\href{http://hadoop.apache.org}{Hadoop} ecosystem'
+        summary: '\href{https://hive.apache.org}{Hive}, \href{http://spark.apache.org}{Spark}, \href{http://oozie.apache.org}{Oozie}.'
     - &skill_python
         title: 'Python'
         summary: 'Experience in such areas as data analysis, data visualization, web scraping, web development, numerical processing and scientific modelling.'
@@ -88,19 +91,22 @@ skills_all:
         summary: 'Competent using \href{http://git-scm.com}{Git} and \href{http://www.mercurial-scm.org}{Mercurial}.'
     - &skill_web_frameworks
         title: 'Web application frameworks'
-        summary: 'Proficient using \href{http://www.djangoproject.com}{Django} and \href{http://flask.pocoo.org}{Flask}. Some experience using \href{http://www.meteor.com}{Meteor}. Static site generation using \href{http://www.pelican.com}{Pelican}.'
+        summary: 'Proficient using \href{http://www.djangoproject.com}{Django} and \href{http://flask.pocoo.org}{Flask}. Some experience using \href{http://www.meteor.com}{Meteor}.'
     - &skill_databases
         title: 'Persistent data storage'
-        summary: 'Experience interacting with \href{http://www.mysql.com}{MyS\smaller{QL}}, \href{http://www.postgresql.org}{PostgreS\smaller{QL}} and \href{http://www.sqlite.org}{S\smaller{QL}ite} databases. Also familiar using NoS\smaller{QL} solutions through \href{http://www.mongodb.org}{MongoD\smaller{B}} and \href{http://redis.io}{Redis}, and Database-as-a-Service solutions through \href{http://orchestrate.io}{Orchestrate}.'
+        summary: 'Experience interacting with \href{http://www.mysql.com}{MyS\smaller{QL}} and \href{http://www.postgresql.org}{PostgreS\smaller{QL}} databases. Also familiar with NoS\smaller{QL} solutions through \href{http://www.mongodb.org}{MongoD\smaller{B}} and \href{http://redis.io}{Redis}, and metric storage through \href{https://graphiteapp.org}{Graphite}'
     - &skill_web_hosting
         title: 'Web hosting'
         summary: 'Conventional servers, \href{http://dashboard.heroku.com/login}{Heroku} and \href{http://aws.amazon.com}{Amazon Web Services}.'
+    - &skill_aws
+        title: 'Amazon Web Services'
+        summary: 'Experience using A\smaller{WS} for database storage (\smaller{RDS}), caching (Elasticache), storage (S3), hosting (E\smaller{C2}) and task scheduling (Lambda)'
     - &skill_frontend
         title: 'Front-end technologies'
-        summary: '\href{http://getbootstrap.com}{Bootstrap}, \href{http://getskeleton.com}{Skeleton}, \href{http://lesscss.org}{L\smaller{ESS}}, \href{http://sass-lang.com}{S\smaller{ASS}}, \href{http://jquery.com}{jQuery}, \href{http://handlebarsjs.com}{Handlebars}, \href{http://gulpjs.com}{Gulp}.'
+        summary: '\href{http://getbootstrap.com}{Bootstrap}, \href{http://lesscss.org}{L\smaller{ESS}}, \href{http://sass-lang.com}{S\smaller{ASS}}, \href{http://jquery.com}{jQuery}, \href{http://handlebarsjs.com}{Handlebars}, \href{http://gulpjs.com}{Gulp}.'
     - &skill_documents
         title: 'Document preparation'
-        summary: '\href{http://www.latex-project.org}{\LaTeX}, \href{http://daringfireball.net/projects/markdown}{Markdown}, \href{http://pandoc.org}{Pandoc}, \href{http://jinja.pocoo.org}{Jinja}.'
+        summary: '\href{http://www.latex-project.org}{\LaTeX}, \href{http://pandoc.org}{Pandoc}, \href{http://jinja.pocoo.org}{Jinja}.'
     - &skill_3d_modelling
         title: '3D modelling and design'
         summary: '\href{http://www.autodesk.co.uk/products/autodesk-3ds-max}{3ds Max}.'
@@ -115,7 +121,7 @@ skills_all:
         summary: '\href{http://pandas.pydata.org}{Pandas}, \href{http://www.scipy.org}{Scipy}, \href{http://scikit-learn.org}{Scikit-learn}.'
     - &skill_visualization
         title: 'Data visualization'
-        summary: '\href{http://matplotlib.org}{Matplotlib}, \href{http://d3js.org}{d3.js}, \href{http://www.vtk.org}{V\smaller{TK}}, \href{http://www.highcharts.com}{Highcharts}.'
+        summary: '\href{http://matplotlib.org}{Matplotlib}, \href{http://bokeh.pydata.org}{Bokeh}, \href{http://d3js.org}{d3.js}, \href{http://grafana.org}{Grafana}, \href{http://www.tableau.com}{Tableau}'
     - &skill_theory
         title: 'Theory'
         points:
@@ -174,7 +180,7 @@ educations:
 jobs:
     - *job_booking
     - *job_ecometrica
-    - *job_edinburgh
+    # - *job_edinburgh
     # - *job_booths
     # - *job_concept
 skill_sections:
@@ -190,16 +196,18 @@ skill_sections:
         skills:
             - *skill_OSes
             - *skill_versioning
-            - *skill_web_frameworks
+            - *skill_data_analysis_tools
+            - *skill_bigdata
             - *skill_databases
-            - *skill_web_hosting
+            - *skill_visualization
+            - *skill_aws
+            - *skill_web_frameworks
+            # - *skill_web_hosting
             - *skill_frontend
-            - *skill_documents
+            # - *skill_documents
             # - *skill_3d_modelling
             - *skill_numerics
             - *skill_optimization
-            - *skill_data_analysis_tools
-            - *skill_visualization
     -
         title: 'Miscellaneous'
         skills:
