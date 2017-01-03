@@ -10,222 +10,110 @@ phone: '+31 644481822'
 website: 'elliotmarsden.com'
 github_name: 'eddiejessup'
 summary: ''
-educations_all:
-    - &education_phd
+educations:
+    -
         date: '2011 – 2015'
         qualification: 'PhD in \href{http://www2.ph.ed.ac.uk/cmatter/living.html}{Soft Condensed Matter Physics}'
         location: '\href{http://www.ed.ac.uk/home}{University of Edinburgh}'
         points:
-            - 'Thesis on \textit{The collective dynamics of self-propelled particles in confining environments}, that is, on the movement of large numbers of bacteria in enclosed spaces such as water droplets'
-            - 'Code written mainly in Python, interfaced with numerics written in C'
-            - 'Close collaboration with theoretical physicists and experimental biologists'
-            - 'Interdisciplinary work of interest to audiences ranging from statistical physics to molecular biology'
-            - 'Publication of work in \href{http://dx.doi.org/10.1039/C3SM52358F}{\textit{Soft Matter}}, and on the front cover of \href{http://dx.doi.org/10.1103/PhysRevLett.113.268101}{\textit{Physical Review Letters}}'
-    - &education_higher
+            - 'Thesis on \textit{The collective dynamics of self-propelled particles in confining environments}, that is, on the movement of large numbers of bacteria in enclosed spaces such as water droplets.'
+            - 'Code written mainly in Python, interfaced with numerics written in C.'
+            - 'Close collaboration with theoretical physicists and experimental biologists.'
+            - 'Interdisciplinary work of interest to audiences ranging from statistical physics to molecular biology.'
+            - 'Publication of work in \href{http://dx.doi.org/10.1039/C3SM52358F}{\textit{Soft Matter}}, and on the front cover of \href{http://dx.doi.org/10.1103/PhysRevLett.113.268101}{\textit{Physical Review Letters}}.'
+    -
         date: '2007 – 2011'
         qualification: 'MPhys in Theoretical Physics'
         location: '\href{http://www.dur.ac.uk/van-mildert.college}{Van Mildert College}, \href{http://www.dur.ac.uk}{Durham University}'
         points:
-            - 'Graduated First Class with Honours'
-            - 'Thesis on \textit{Computational Analysis of Shear Banding in Shear Startup and L\smaller{AOS} Regimes}, that is, on the complex behaviour of polymeric fluids as they flow'
-            - 'Contributed to publication in \href{http://dx.doi.org/10.1103/PhysRevLett.110.086001}{\textit{Physical Review Letters}}'
-    - &education_secondary
-        date: '2000 – 2007'
-        location: '\href{http://www.crgs.org.uk}{Clitheroe Royal Grammar School and Sixth Form College}'
-        points:
-            - 'A Level: Maths (A), Physics (A), Chemistry (A) and General Studies (A)'
-            - 'AS Level: Computing (A) and Critical Thinking (A)'
-            - 'G\smaller{CSE}: 3 A$^*$s, 5 As and 2 Bs'
-jobs_all:
-    - &job_booking
+            - 'Graduated First Class with Honours.'
+            - 'Thesis on \textit{Computational Analysis of Shear Banding in Shear Startup and L\smaller{AOS} Regimes}, that is, on the complex behaviour of polymeric fluids as they flow.'
+            - 'Contributed to publication in \href{http://dx.doi.org/10.1103/PhysRevLett.110.086001}{\textit{Physical Review Letters}}.'
+jobs:
+    -
         date: 'May 2016 – Present'
         employer: '\href{http://booking.com}{Booking.com}'
         role: 'Data Scientist'
-        summary: 'Analysis of large data-sets to identify trends to allow appropriate business decisions'
-    - &job_ecometrica
+        summary: 'Analysis of large data-sets to identify trends to allow appropriate business decisions.'
+        points:
+            - 'Querying petabyte-scale data using Hadoop and related tools such as Hive and Spark to answer business questions.'
+            - 'Working with decision-makers to suggest practical actions, and ways to quantitatively test their success.'
+            - 'Extensive experience implementing $\textrm{A}/\textrm{B}$ testing to measure small effects reliably, accounting for subtle statistical biases.'
+            - 'Contributed internal tools, and started and currently organise weekly knowledge sharing events.'
+    -
         date: 'Sep 2015 – April 2016'
         employer: '\href{http://ecometrica.com}{Ecometrica}'
         role: 'Software Developer'
         summary: 'Development of a web platform providing visualization and analysis of geo-spatial data.'
         points:
-            - 'Back-end development using Django'
-            - 'Front-end development on the single-page application interface'
-            - 'Independently drove project creating a tool enabling sophisticated interactive analysis of geo-spatial data by users, through Python and Pandas'
-    - &job_edinburgh
-        date: '2011 – 2014'
-        employer: 'University of Edinburgh'
-        role: 'Teaching assistant'
-        summary: 'Taught on various courses, including,'
-        points:
-            - '\textit{Scientific Programming in Java}'
-            - '\textit{Computational Research Methods}'
-    - &job_booths
-        date: '2008'
-        employer: '\href{http://www.booths.co.uk}{Booths supermarkets}'
-        role: 'Checkout operative'
-    - &job_concept
-        date: '2005 – 2006'
-        employer: '\href{http://www.conceptpropertyclaims.co.uk}{Concept Solutions}'
-        role: 'Call centre operative'
-skills_all:
-    - &skill_bigdata
-        title: '\href{http://hadoop.apache.org}{Hadoop} ecosystem'
-        summary: '\href{https://hive.apache.org}{Hive}, \href{http://spark.apache.org}{Spark}, \href{http://oozie.apache.org}{Oozie}.'
-    - &skill_python
-        title: 'Python'
-        summary: 'Experience in such areas as data analysis, data visualization, web scraping, web development, numerical processing and scientific modelling.'
-    - &skill_cpp
-        title: 'C, C\smaller{++}'
-        summary: 'Used for numerical solution of differential equations, molecular dynamics simulation, network automata.'
-    - &skill_java
-        title: 'Java'
-        summary: 'Taught multiple courses to undergraduate students.'
-    - &skill_html
-        title: 'H\smaller{TML}, C\smaller{SS}, Javascript, CoffeeScript, jQuery'
-        summary: 'Designed and maintain websites for artist \href{http://nicktighe.uk}{Nick Tighe}; \href{http://elliotmarsden.com}{personal website} and \href{http://blog.elliotmarsden.com}{personal blog}'
-    - &skill_OSes
-        title: 'Operating Systems'
-        summary: 'Entirely familiar with Linux, OS X and Windows environments.'
-    - &skill_versioning
-        title: 'Version control'
-        summary: 'Competent using \href{http://git-scm.com}{Git} and \href{http://www.mercurial-scm.org}{Mercurial}.'
-    - &skill_web_frameworks
-        title: 'Web application frameworks'
-        summary: 'Proficient using \href{http://www.djangoproject.com}{Django} and \href{http://flask.pocoo.org}{Flask}. Some experience using \href{http://www.meteor.com}{Meteor}.'
-    - &skill_databases
-        title: 'Persistent data storage'
-        summary: 'Experience interacting with \href{http://www.mysql.com}{MyS\smaller{QL}} and \href{http://www.postgresql.org}{PostgreS\smaller{QL}} databases. Also familiar with NoS\smaller{QL} solutions through \href{http://www.mongodb.org}{MongoD\smaller{B}} and \href{http://redis.io}{Redis}, and metric storage through \href{https://graphiteapp.org}{Graphite}.'
-    - &skill_aws
-        title: 'Amazon Web Services'
-        summary: 'Experience using A\smaller{WS} for database storage (\smaller{RDS}), caching (Elasticache), storage (S3), hosting (E\smaller{C2}) and task scheduling (Lambda).'
-    - &skill_frontend
-        title: 'Front-end technologies'
-        summary: '\href{http://getbootstrap.com}{Bootstrap}, \href{http://lesscss.org}{L\smaller{ESS}}, \href{http://sass-lang.com}{S\smaller{ASS}}, \href{http://jquery.com}{jQuery}, \href{http://handlebarsjs.com}{Handlebars}, \href{http://gulpjs.com}{Gulp}.'
-    - &skill_documents
-        title: 'Document preparation'
-        summary: '\href{http://www.latex-project.org}{\LaTeX}, \href{http://pandoc.org}{Pandoc}, \href{http://jinja.pocoo.org}{Jinja}.'
-    - &skill_3d_modelling
-        title: '3D modelling and design'
-        summary: '\href{http://www.autodesk.co.uk/products/autodesk-3ds-max}{3ds Max}.'
-    - &skill_numerics
-        title: 'Scientific and numerical computing'
-        summary: '\href{http://www.numpy.org}{Numpy}, \href{http://www.ctcms.nist.gov/fipy}{FiPy}, \href{http://networkx.github.io}{NetworkX}.'
-    - &skill_optimization
-        title: 'Program optimization'
-        summary: '\href{http://cython.org}{Cython}, \href{http://www.boost.org/doc/libs/1_60_0/libs/python/doc/html/index.html}{Boost.Python}.'
-    - &skill_data_analysis_tools
-        title: 'Data analysis'
-        summary: '\href{http://pandas.pydata.org}{Pandas}, \href{http://www.scipy.org}{Scipy}, \href{http://scikit-learn.org}{Scikit-learn}.'
-    - &skill_visualization
-        title: 'Data visualization'
-        summary: '\href{http://matplotlib.org}{Matplotlib}, \href{http://bokeh.pydata.org}{Bokeh}, \href{http://d3js.org}{d3.js}, \href{http://grafana.org}{Grafana}, \href{http://www.tableau.com}{Tableau}.'
-    - &skill_theory
-        title: 'Theory'
-        points:
-            - 'Mathematics: Competent in areas including calculus, geometry, differential equations and graph theory'
-            - 'Computing: Familiar with complexity theory, algorithm analysis and data structures'
-            - 'Data analysis and statistics: Experienced at understanding data using methods such as frequency analysis, data clustering, model fitting, machine learning and regression analysis'
-    - &skill_transport
-        title: 'Transport'
-        summary: 'Full, clean UK Driving License.'
-    - &skill_language
-        title: 'Language'
-        points:
-            - 'Intermediate French: G\smaller{CSE} A$^*$ and private learning'
-            - 'Novice German: Secondary school and one semester of an undergraduate course'
-            - "Novice Russian: One semester of Edinburgh's \\href{http://www.ed.ac.uk/studying/short-courses/languages/for-all}{Languages for All} and private learning"
-    - &skill_communication
-        title: 'Communication'
-        points:
-            - 'Given talks at conferences, including at \href{http://ist.ac.at/stochastic-biology}{\textit{Stochastic Biology: from Cells to Populations}}; as an invited speaker at the \href{http://www.nbi.ku.dk/english/research/biophysics}{Niels Bohr Institute} and at the \href{http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx}{N\smaller{ETADIS} Summer School}'
-            - 'Presented seminars, journal clubs and theory clubs within the Edinburgh research group'
-            - 'First prize for \textit{Bacterial Chemotaxis in Confining Geometries} in annual PhD poster competition at the University of Edinburgh'
-experiences_all:
-    - &experience_teaching
-        title: 'Teaching'
-        date: '2013'
-        summary: 'Taught version control, Python and Linux skills to PhD students at \href{http://software-carpentry.org}{Software Carpentry} \href{http://software-carpentry.org/workshops}{Boot Camps} in Edinburgh and Bath.'
-    - &experience_sequencing
-        title: 'Sequence data analysis'
-        date: '2014'
-        summary: 'Worked with collaborators during PhD to carry out D\smaller{NA} sequencing.'
-        points:
-            - 'Analysed using bio-informatics software \href{http://qiime.org}{Q\smaller{IIME}}'
-            - 'Processed using cloud computing platform \href{http://aws.amazon.com/ec2}{Amazon E\smaller{C2}}'
-    - &experience_web_applications
-        title: 'Web application development'
-        date: '2012 – 2014'
-        points:
-            - "Developed web application, \\textit{EdRecycle}, presenting a calendar of Edinburgh's recycling collection, customized by street"
-            - 'Co-designed and wrote a prototype web application, \textit{Tube-it}, to build a schematic London Tube-style map for a location based on drinking locations obtained from the Google Maps A\smaller{PI}'
-    - &experience_open_source
-        title: 'Open source contributions'
-        date: '2013 – Present'
-        summary: 'Contributed to various projects, such as creating \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, a plugin written in Python for the text editor \href{http://www.sublimetext.com}{Sublime Text}, to allow in-place text encryption.'
-        # points:
-            # - ': Created text editor plugin, '
-            # - '\href{http://github.com/orchestrate-io/porc}{Orchestrate}: Added Python A\smaller{PI} functionality'
-            # - '\href{http://vpython.org}{VPython}: Fixed OS X compatibility'
-            # - '\href{http://lammps.sandia.gov}{L\smaller{AMMPS}}: Added low-reynolds number self-propelled particle functionality to molecular dynamics package'
-    - &experience_crunchie
-        title: 'Modelling and optimization'
-        summary: 'In 2010, designed an improved control-system algorithm for the production of Crunchie material for \href{http://www.cadbury.co.uk/Cadbury}{Cadbury}.'
-educations:
-    - *education_phd
-    - *education_higher
-    # - *education_secondary
-jobs:
-    - *job_booking
-    - *job_ecometrica
-    # - *job_edinburgh
-    # - *job_booths
-    # - *job_concept
+            - 'Back-end development using Django, and front-end development on the single-page application interface.'
+            - 'Independently drove project creating a tool enabling sophisticated interactive analysis of geo-spatial data by users, through Python and Pandas.'
 skill_sections:
     -
-        title: 'Programming Languages'
+        title: 'Software Development'
         skills:
-            - *skill_python
-            - *skill_cpp
-            - *skill_java
-            - *skill_html
+            -
+                title: 'Operating Systems'
+                summary: 'Entirely familiar with Linux, OS X and Windows environments.'
+            -
+                title: 'Version control'
+                summary: 'Competent using \href{http://git-scm.com}{Git} and \href{http://www.mercurial-scm.org}{Mercurial}.'
+            -
+                title: 'Python'
+                summary: 'Very capable using advanced features of Python where necessary, and have used the language for diverse applications such as web scraping, web applications, numerical simulations and language parsing.'
+            -
+                title: 'Back-end web development'
+                summary: 'Proficient with Django and Flask web frameworks.'
+            -
+                title: 'Front-end web development'
+                summary: 'Familiar with typical front-end technologies such as Javascript, H\smaller{TML}, C\smaller{SS}, \href{http://lesscss.org}{L\smaller{ESS}}, \href{http://sass-lang.com}{S\smaller{ASS}}.'
+            -
+                title: 'Databases'
+                summary: 'Experience interacting with \href{http://www.mysql.com}{MyS\smaller{QL}} and \href{http://www.postgresql.org}{PostgreS\smaller{QL}} databases. Also familiar with NoS\smaller{QL} software \href{http://www.mongodb.org}{MongoD\smaller{B}} and \href{http://redis.io}{Redis}, and metric storage through \href{https://graphiteapp.org}{Graphite}.'
+            -
+                title: 'Amazon Web Services'
+                summary: 'Experience using A\smaller{WS} for database storage (R\smaller{DS}), caching (Elasticache), storage (S3), hosting (E\smaller{C2}) and task scheduling (Lambda).'
+            -
+                title: 'Scientific and numerical computing'
+                summary: 'Frequently used software such as \href{http://www.numpy.org}{Numpy}, \href{http://www.scipy.org}{Scipy}, \href{http://www.ctcms.nist.gov/fipy}{FiPy}, \href{http://networkx.github.io}{NetworkX} and \href{http://cython.org}{Cython}.'
+            -
+                title: 'Theory'
+                summary: 'Familiar with complexity theory, algorithm analysis and data structures.'
     -
-        title: Software
+        title: 'Data Science'
         skills:
-            - *skill_OSes
-            - *skill_versioning
-            - *skill_data_analysis_tools
-            - *skill_bigdata
-            - *skill_databases
-            - *skill_visualization
-            - *skill_aws
-            - *skill_web_frameworks
-            - *skill_frontend
-            # - *skill_documents
-            # - *skill_3d_modelling
-            - *skill_numerics
-            - *skill_optimization
-    -
-        title: 'Miscellaneous'
-        skills:
-            - *skill_theory
-            - *skill_transport
-            - *skill_language
-            - *skill_communication
+            -
+                title: 'Analysing data-sets'
+                summary: 'At ease using Hadoop ecosystem tools: \href{https://hive.apache.org}{Hive}, \href{http://spark.apache.org}{Spark}, \href{http://oozie.apache.org}{Oozie}, as well as \href{http://pandas.pydata.org}{Pandas} for smaller-scale manipulation.'
+            -
+                title: 'Data visualization'
+                summary: 'Skilled making plots and dashboards using \href{http://matplotlib.org}{Matplotlib}, \href{http://bokeh.pydata.org}{Bokeh}, \href{http://d3js.org}{d3.js}, \href{http://grafana.org}{Grafana} and \href{http://www.tableau.com}{Tableau}.'
+            -
+                title: 'Machine learning'
+                summary: 'Familiar with typical models such as regression, naïve Bayes and random forests. Experience implementing these with \href{http://scikit-learn.org}{Scikit-learn}. Have also implemented neural networks for image classification using \href{https://www.tensorflow.org}{Tensor Flow}.'
 experiences:
-    - *experience_sequencing
-    - *experience_open_source
-    - *experience_teaching
-    - *experience_web_applications
-    # - *experience_crunchie
-opening: "Dear Sir/Madam"
-closing: "Yours sincerely"
-cover: |
-    I am writing to apply for the position of Data Scientist, in the Analytics group. I am currently a software developer at a company building a platform for analysing large sets of geo-spatial data. Before this I completed a PhD in computational biophysics, in the Physics department of Edinburgh University. I enjoy my current work, but feel I can better use my skills in quantitative analysis and scientific thinking in a more data-oriented role, and would relish the chance to move to a city such as Amsterdam. In these regards, this opportunity is one about which I'm very excited, and for which I feel I am extremely well qualified.
-
-    Through my PhD, as well as during my previous Masters degree in Theoretical Physics, I have developed the analytic skills necessary to deal with statistical and mathematical aspects of the work. My PhD involved writing and running Python programs to simulate large numbers of bacteria in confined spaces. It necessitated extensive analysis of the resulting large data-sets, as well as of experimental data from collaborators. This was done using Numpy and Pandas, with clustering analysis carried out on the data using Scikit-learn. As an example of such analysis, a significant part of my work involved accounting for subtle statistical biases introduced by imperfect microscope measurements of bacterial positions.
-
-    In my position as a software developer, I have further deepened my familiarity with Pandas, through an independently driven project to allow interactive analysis of geo-spatial data by users of the product. Working on the back-end of a data-driven product also requires competency using S\smaller{QL}, and knowledge of best-practices in developing and maintaining a code-base. I am extremely capable in a wider range of software contexts, which I have extended through personal projects; for example, I am currently working on a web application to analyse and visualise government budget data, using the Python web framework Django, and the visualisation library d3.js.
-
-    My PhD gave me many opportunities to develop my skills as a communicator of complex information, through talks at conferences and academic publications. The inter-disciplinary nature of my work required me to tailor the presentation of my work to a diverse range of audiences with varying backgrounds. In my current role, I communicate my progress to the team in daily meetings, which again requires a consideration of the audience since the group comprises both software developers and geo-spatial analysts.
-
-    As a part of the Analytics team at Booking.com, I look forward to contributing an enthusiastic and rational attitude, in order to infer practical and robust conclusions from large, disparate sets of data. I appreciate your consideration of my application, and look forward to hearing from you.
+    -
+        title: 'Teaching'
+        date: '2012 – 2015'
+        points:
+            - 'Taught version control, Python and Linux skills to PhD students at two-day \href{http://software-carpentry.org}{Software Carpentry} \href{http://software-carpentry.org/workshops}{Boot Camps} in Edinburgh and Bath.'
+            - 'Employed as a teaching assistant during PhD, leading tutorial discussions and helping undergraduate students in problem workshops.'
+    -
+        title: 'Academic communication'
+        date: '2011 – 2015'
+        points:
+            - 'Given talks at conferences, including at \href{http://ist.ac.at/stochastic-biology}{\textit{Stochastic Biology: from Cells to Populations}}; as an invited speaker at the \href{http://www.nbi.ku.dk/english/research/biophysics}{Niels Bohr Institute} and at the \href{http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx}{N\smaller{ETADIS} Summer School}.'
+            - 'Presented seminars, journal clubs and theory clubs within the Edinburgh research group.'
+            - 'First prize for \textit{Bacterial Chemotaxis in Confining Geometries} in annual PhD poster competition at the University of Edinburgh.'
+    -
+        title: 'Personal software projects'
+        date: '2014 – Present'
+        points:
+            - 'Re-implementated the document preparation language \TeX\ in Python.'
+            - 'Created \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, a plugin for the text editor \href{http://www.sublimetext.com}{Sublime Text}, to allow in-place text encryption.'
+            - 'Wrote \href{https://github.com/eddiejessup/sneezly}{Sneezly}, an event logging service with a chat bot front-end.'
+    -
+        title: 'Open source contributions'
+        date: '2013 – Present'
+        summary: 'Contributed to various projects, including \href{http://pandas.pydata.org}{Pandas} and \href{http://jupyter.org/}{Jupyter}.'
+reference: "Available on request."
