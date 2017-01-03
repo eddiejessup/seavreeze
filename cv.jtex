@@ -36,20 +36,8 @@
     \end{center}
     <% endif %>
 
-    \section{Education}
-
-        <% for education in educations %>
-        \project{<< education.date >>}{<% if education.qualification %><< education.qualification >>, <% endif %><< education.location >>}{
-            <% if education.points %>
-            \begin{itemize-noindent}
-            <% for point in education.points %>
-                \item{\tabfill{<< point >>}}
-            <% endfor %>
-            \end{itemize-noindent}
-            <% endif %>
-        }
-        <% endfor %>
-
+    <% if jobs %>
+    \vspace{-0.5cm}
     \section{Employment}
 
         <% for job in jobs %>
@@ -64,6 +52,29 @@
             <% endif %>
         }
         <% endfor %>
+    <% endif %>
+
+    <% if educations %>
+    \pagebreak[0]
+
+    \vspace{-0.5cm}
+    \section{Education}
+
+        <% for education in educations %>
+        \project{<< education.date >>}{<% if education.qualification %><< education.qualification >>, <% endif %><< education.location >>}{
+            <% if education.points %>
+            \begin{itemize-noindent}
+            <% for point in education.points %>
+                \item{\tabfill{<< point >>}}
+            <% endfor %>
+            \end{itemize-noindent}
+            <% endif %>
+        }
+        <% endfor %>
+    <% endif %>
+
+    <% if skill_sections %>
+    \pagebreak[0]
 
     \section{Skills}
 
@@ -82,6 +93,10 @@
         }
         <% endfor %>
         <% endfor %>
+    <% endif %>
+
+    <% if experiences %>
+    \pagebreak[0]
 
     \section{Experience}
 
@@ -97,5 +112,12 @@
             <% endif %>
         }
         <% endfor %>
+    <% endif %>
+
+    <% if reference %>
+    \section{References}
+
+    << reference >>
+    <% endif %>
 
 \end{document}
