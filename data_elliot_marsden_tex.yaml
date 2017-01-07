@@ -93,22 +93,11 @@ skill_sections:
                 summary: 'Familiar with typical models such as regression, naïve Bayes and random forests. Experience implementing these with \href{http://scikit-learn.org}{Scikit-learn}. Have also implemented neural networks for image classification using \href{https://www.tensorflow.org}{Tensor Flow}.'
 experiences:
     -
-        title: 'Personal software projects'
-        date: '2013 – Present'
-        points:
-            - 'Re-implementated the document preparation language \TeX\ in Python.'
-            - 'Created \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, a plugin for the text editor \href{http://www.sublimetext.com}{Sublime Text}, to allow in-place text encryption.'
-            - 'Wrote \href{https://github.com/eddiejessup/sneezly}{Sneezly}, an event logging service with a chat bot front-end.'
-    -
         title: 'Teaching'
-        date: '2012 – 2015'
+        date: '2011 – 2015'
         points:
             - 'Taught version control, Python and Linux skills to PhD students at two-day \href{http://software-carpentry.org}{Software Carpentry} \href{http://software-carpentry.org/workshops}{Boot Camps} in Edinburgh and Bath.'
             - 'Employed as a teaching assistant during PhD, leading tutorial discussions and helping undergraduate students in problem workshops.'
-    -
-        title: 'Open source contributions'
-        date: '2011 – Present'
-        summary: 'Contributed to various projects, including \href{http://pandas.pydata.org}{Pandas} and \href{http://jupyter.org/}{Jupyter}.'
     -
         title: 'Academic communication'
         date: '2011 – 2015'
@@ -116,4 +105,15 @@ experiences:
             - 'Given talks at conferences, including at \href{http://ist.ac.at/stochastic-biology}{\textit{Stochastic Biology: from Cells to Populations}}; as an invited speaker at the \href{http://www.nbi.ku.dk/english/research/biophysics}{Niels Bohr Institute} and at the \href{http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx}{N\smaller{ETADIS} Summer School}.'
             - 'Presented seminars, journal clubs and theory clubs within the Edinburgh research group.'
             - 'First prize for \textit{Bacterial Chemotaxis in Confining Geometries} in annual PhD poster competition at the University of Edinburgh.'
+    -
+        title: 'Personal software projects'
+        date: '2012 – Present'
+        points:
+            - 'Re-implementated the document preparation language \TeX\ in Python.'
+            - 'Created \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, a plugin for the text editor \href{http://www.sublimetext.com}{Sublime Text}, to allow in-place text encryption.'
+            - 'Wrote \href{https://github.com/eddiejessup/sneezly}{Sneezly}, an event logging service with a chat bot front-end.'
+    -
+        title: 'Open source contributions'
+        date: '2013 – Present'
+        summary: 'Contributed to various projects, including \href{http://pandas.pydata.org}{Pandas} and \href{http://jupyter.org/}{Jupyter}.'
 reference: "Available on request."
