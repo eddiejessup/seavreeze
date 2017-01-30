@@ -1,76 +1,83 @@
-<ul>
-    <li><h2>Education</h2>
-        <ul class="section">
+<ul class="section">
+    <li>
+        <h2>Education</h2>
+        <ul class="subsection">
             {% for education in educations %}
             <li>
-                <div class="title">
-                    {{ education.date }}{% if education.qualification %}: {{ education.qualification }}{% endif %}
-                </div>
-                <div class="detail">
-                    {{ education.location }}
-                </div>
-                {% if education.points %}
+                <h3 class="title">{{ education.date }}{% if education.qualification %}: {{ education.qualification }}{% endif %}</h3>
+                <h4 class="detail">{{ education.location }}</h4>
+                {% if education.summary or education.points %}
                 <div class="description">
-                    <ul>
+                {% if education.summary %}
+                    <p>{{ education.summary }}</p>
+                {% endif %}
+                {% if education.points %}
+                    <ul class="description-points">
                     {% for point in education.points %}
-                        <li>{{ point }}</li>
+                        <li>
+                        {{ point }}
+                        </li>
                     {% endfor %}
                     </ul>
+                {% endif %}
                 </div>
                 {% endif %}
             </li>
             {% endfor %}
         </ul>
     </li>
-    <li><h2>Employment</h2>
-        <ul class="section">
+    <li>
+        <h2>Employment</h2>
+        <ul class="subsection">
             {% for job in jobs %}
             <li>
-                <div class="title">
-                    {{ job.date }}: {{ job.role }}
-                </div>
-                <div class="detail">
-                    {{ job.employer }}
-                </div>
-                {% if job.summary %}
+                <h3 class="title">{{ job.date }}: {{ job.role }}</h3>
+                <h4 class="detail">{{ job.employer }}</h4>
+                {% if job.summary or job.points %}
                 <div class="description">
-                    {{ job.summary }}
-                </div>
+                {% if job.summary %}
+                    <p>{{ job.summary }}</p>
                 {% endif %}
                 {% if job.points %}
-                <div class="description">
-                    <ul>
+                    <ul class="description-points">
                     {% for point in job.points %}
-                        <li>{{ point }}</li>
+                        <li>
+                        {{ point }}
+                        </li>
                     {% endfor %}
                     </ul>
+                {% endif %}
                 </div>
                 {% endif %}
             </li>
             {% endfor %}
         </ul>
     </li>
-    <li><h2>Skills</h2>
-        <ul class="section">
+    <li>
+        <h2>Skills</h2>
+        <ul class="subsection">
             {% for skill_section in skill_sections %}
-            <li><h3>{{ skill_section.title }}</h3>
-                <ul>
+            <li>
+                <h3>{{ skill_section.title }}</h3>
+                <ul class="skill-section">
                     {% for skill in skill_section.skills %}
                     <li>
-                        <div class="title">
-                            {{ skill.title }}
-                        </div>
-                        {% if skill.summary %}
+                        <h3 class="title">{{ skill.title }}</h3>
+                        {% if skill.summary or skill.points %}
                         <div class="description">
-                            {{ skill.summary }}
-                        </div>
+                        {% if skill.summary %}
+                            <p>{{ skill.summary }}</p>
                         {% endif %}
                         {% if skill.points %}
-                            <ul>
-                                {% for point in skill.points %}
-                                <li>{{ point }}</li>
+                            <ul class="description-points">
+                            {% for point in skill.points %}
+                                <li>
+                                {{ point }}
+                                </li>
                                 {% endfor %}
                             </ul>
+                        {% endif %}
+                        </div>
                         {% endif %}
                     </li>
                     {% endfor %}
@@ -79,23 +86,28 @@
             {% endfor %}
         </ul>
     </li>
-    <li><h2>Experience</h2>
-        <ul class="section">
+    <li>
+        <h2>Experience</h2>
+        <ul class="subsection">
             {% for experience in experiences %}
             <li>
-                <div class="title">
-                    {{ experience.date }}: {{ experience.title }}
-                </div>
+                <h3 class="title">{{ experience.date }}: {{ experience.title }}</h3>
+                {% if experience.summary or experience.points %}
                 <div class="description">
-                    {{ experience.summary }}
-                    {% if experience.points %}
-                    <ul>
+                {% if experience.summary %}
+                    <p>{{ experience.summary }}</p>
+                {% endif %}
+                {% if experience.points %}
+                    <ul class="description-points">
                         {% for point in experience.points %}
-                        <li>{{ point }}</li>
+                        <li>
+                        {{ point }}
+                        </li>
                         {% endfor %}
                     </ul>
-                    {% endif %}
+                {% endif %}
                 </div>
+                {% endif %}
             </li>
             {% endfor %}
         </ul>

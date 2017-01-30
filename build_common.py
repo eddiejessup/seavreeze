@@ -28,7 +28,9 @@ def get_tex_jinja_env():
 
 def get_html_jinja_env():
     return jinja2.Environment(
-        loader=jinja2.FileSystemLoader('.')
+        loader=jinja2.FileSystemLoader('.'),
+        trim_blocks=True,
+        lstrip_blocks=True,
     )
 
 
