@@ -1,32 +1,5 @@
 <ul class="section">
     <li>
-        <h2>Education</h2>
-        <ul class="subsection">
-            {% for education in educations %}
-            <li>
-                <h3 class="title">{{ education.date }}{% if education.qualification %}: {{ education.qualification }}{% endif %}</h3>
-                <h4 class="detail">{{ education.location }}</h4>
-                {% if education.summary or education.points %}
-                <div class="description">
-                {% if education.summary %}
-                    <p>{{ education.summary }}</p>
-                {% endif %}
-                {% if education.points %}
-                    <ul class="description-points">
-                    {% for point in education.points %}
-                        <li>
-                        {{ point }}
-                        </li>
-                    {% endfor %}
-                    </ul>
-                {% endif %}
-                </div>
-                {% endif %}
-            </li>
-            {% endfor %}
-        </ul>
-    </li>
-    <li>
         <h2>Employment</h2>
         <ul class="subsection">
             {% for job in jobs %}
@@ -41,6 +14,33 @@
                 {% if job.points %}
                     <ul class="description-points">
                     {% for point in job.points %}
+                        <li>
+                        {{ point }}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li>
+        <h2>Education</h2>
+        <ul class="subsection">
+            {% for education in educations %}
+            <li>
+                <h3 class="title">{{ education.date }}{% if education.qualification %}: {{ education.qualification }}{% endif %}</h3>
+                <h4 class="detail">{{ education.location }}</h4>
+                {% if education.summary or education.points %}
+                <div class="description">
+                {% if education.summary %}
+                    <p>{{ education.summary }}</p>
+                {% endif %}
+                {% if education.points %}
+                    <ul class="description-points">
+                    {% for point in education.points %}
                         <li>
                         {{ point }}
                         </li>
@@ -74,7 +74,7 @@
                                 <li>
                                 {{ point }}
                                 </li>
-                                {% endfor %}
+                            {% endfor %}
                             </ul>
                         {% endif %}
                         </div>
