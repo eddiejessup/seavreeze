@@ -10,6 +10,25 @@ phone: '+31 644481822'
 website: 'elliotmarsden.com'
 github_name: 'eddiejessup'
 summary: ''
+jobs:
+    -
+        date: 'May 2016 – Present'
+        employer: '\href{http://booking.com}{Booking.com}'
+        role: 'Data Scientist'
+        summary: 'Analysis of large data-sets to identify trends to allow appropriate business decisions.'
+        points:
+            - 'Querying petabyte-scale data using Hadoop and related tools such as Hive and Spark to answer business questions.'
+            - 'Working with decision-makers to suggest practical actions, and ways to quantitatively test their success.'
+            - 'Extensive experience implementing $\textrm{A}/\textrm{B}$ testing at scale to measure small effects, and analysing experimentation practices to improve results'
+            - 'Contributed internal tools, and started and currently organise weekly knowledge sharing events.'
+    -
+        date: 'Sep 2015 – April 2016'
+        employer: '\href{http://ecometrica.com}{Ecometrica}'
+        role: 'Software Developer'
+        summary: 'Development of a web platform providing visualization and analysis of geo-spatial data.'
+        points:
+            - 'Back-end development using Django, front-end development on the single-page application, and deployment with Amazon Web Services'
+            - 'Independently drove project to create a tool for interactive analysis of geo-spatial data by users, through Python and Pandas.'
 educations:
     -
         date: '2011 – 2015'
@@ -29,25 +48,6 @@ educations:
             - 'Graduated First Class with Honours.'
             - 'Thesis on \textit{Computational Analysis of Shear Banding in Shear Startup and L\smaller{AOS} Regimes}, that is, on the complex behaviour of polymeric fluids as they flow.'
             - 'Contributed to publication in \href{http://dx.doi.org/10.1103/PhysRevLett.110.086001}{\textit{Physical Review Letters}}.'
-jobs:
-    -
-        date: 'May 2016 – Present'
-        employer: '\href{http://booking.com}{Booking.com}'
-        role: 'Data Scientist'
-        summary: 'Analysis of large data-sets to identify trends to allow appropriate business decisions.'
-        points:
-            - 'Querying petabyte-scale data using Hadoop and related tools such as Hive and Spark to answer business questions.'
-            - 'Working with decision-makers to suggest practical actions, and ways to quantitatively test their success.'
-            - 'Extensive experience implementing $\textrm{A}/\textrm{B}$ testing to measure small effects reliably, accounting for subtle statistical biases.'
-            - 'Contributed internal tools, and started and currently organise weekly knowledge sharing events.'
-    -
-        date: 'Sep 2015 – April 2016'
-        employer: '\href{http://ecometrica.com}{Ecometrica}'
-        role: 'Software Developer'
-        summary: 'Development of a web platform providing visualization and analysis of geo-spatial data.'
-        points:
-            - 'Back-end development using Django, and front-end development on the single-page application interface.'
-            - 'Independently drove project creating a tool enabling sophisticated interactive analysis of geo-spatial data by users, through Python and Pandas.'
 skill_sections:
     -
         title: 'Software Development'
@@ -90,7 +90,7 @@ skill_sections:
                 summary: 'Skilled making plots and dashboards using \href{http://matplotlib.org}{Matplotlib}, \href{http://bokeh.pydata.org}{Bokeh}, \href{http://d3js.org}{d3.js}, \href{http://grafana.org}{Grafana} and \href{http://www.tableau.com}{Tableau}.'
             -
                 title: 'Machine learning'
-                summary: 'Familiar with typical models such as regression, naïve Bayes and random forests. Experience implementing these with \href{http://scikit-learn.org}{Scikit-learn}. Have also implemented neural networks for image classification using \href{https://www.tensorflow.org}{Tensor Flow}.'
+                summary: 'Familiar with typical models such as regression, naïve Bayes and random forests. Experience implementing these with \href{http://scikit-learn.org}{Scikit-learn}, and \href{http://www.h2o.ai}{H2O}. Have also implemented neural networks for image classification using \href{https://www.tensorflow.org}{Tensor Flow}.'
 experiences:
     -
         title: 'Teaching'
@@ -110,10 +110,10 @@ experiences:
         date: '2012 – Present'
         points:
             - 'Re-implementated the document preparation language \TeX\ in Python.'
-            - 'Created \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, a plugin for the text editor \href{http://www.sublimetext.com}{Sublime Text}, to allow in-place text encryption.'
+            - 'Created \href{https://packagecontrol.io/packages/Transcrypt}{\textit{Transcrypt}}, a plugin for the text editor \href{http://www.sublimetext.com}{Sublime Text} to allow in-place text encryption.'
             - 'Wrote \href{https://github.com/eddiejessup/sneezly}{Sneezly}, an event logging service with a chat bot front-end.'
     -
         title: 'Open source contributions'
         date: '2013 – Present'
-        summary: 'Contributed to various projects, including \href{http://pandas.pydata.org}{Pandas} and \href{http://jupyter.org/}{Jupyter}.'
+        summary: 'Contributed to various projects, including \href{http://pandas.pydata.org}{Pandas}, \href{https://github.com/janschulz/knitpy}{knitpy} and \href{http://jupyter.org/}{Jupyter}.'
 reference: "Available on request."
