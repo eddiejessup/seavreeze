@@ -114,10 +114,4 @@
         <% endfor %>
     <% endif %>
 
-    <% if reference %>
-    \section{References}
-
-    << reference >>
-    <% endif %>
-
 \end{document}
