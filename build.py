@@ -11,12 +11,16 @@ arg_to_get_env_func_map = {
 
 parser = argparse.ArgumentParser(description='Render a Jinja2 template.')
 parser.add_argument('-t', '--template',
+                    required=True,
                     help='Jinja2 template to render')
 parser.add_argument('-d', '--data', type=argparse.FileType('r'),
+                    required=True,
                     help='YAML file containing template context')
-parser.add_argument('-f', '--format',
+parser.add_argument('-f', '--format', choices=arg_to_get_env_func_map.keys(),
+                    required=True,
                     help='YAML file containing template context')
 parser.add_argument('-o', '--output', type=argparse.FileType('w'),
+                    required=True,
                     help='File to output to')
 
 args = parser.parse_args()
