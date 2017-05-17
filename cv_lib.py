@@ -2,6 +2,8 @@ import yaml
 
 import jinja2
 
+import cvml
+
 
 def get_html_jinja_env():
     return jinja2.Environment(
@@ -23,9 +25,10 @@ def get_tex_jinja_env():
     )
 
 
-def render(env, template_file, data_file, output_file):
+def render(env, template_file, data_file, output_file, lang):
     template = env.get_template(template_file)
     with data_file as f:
         context = yaml.safe_load(f)
+    cvml.expand_context_inplace(context, lang)
     with output_file as f:
         f.write(template.render(**context))

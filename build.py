@@ -23,4 +23,4 @@ args = parser.parse_args()
 
 get_jinja_env_func = arg_to_get_env_func_map[args.format]
 env = get_jinja_env_func()
-cv_lib.render(env, args.template, args.data, args.output)
+cv_lib.render(env, args.template, args.data, args.output, args.format)
