@@ -12,10 +12,10 @@ def parse_to_cvml_elem(s):
                          'CVML content')
     s_transformed = (
         s
-        # Get the embedded HTML brackets out of the way for a minute.
+        # Hide the HTML brackets while the XML is parsed.
         .replace('<', '‹').replace('>', '›')
         # Make the XML stand-ins into proper brackets.
-        .replace('≤', '<').replace('≥', '>')
+        .replace('[[', '<').replace(']]', '>')
     )
     # Wrap in outer tags to make into valid XML.
     s_wrapped = f'<t>{s_transformed}</t>'
@@ -26,7 +26,7 @@ def parse_to_cvml_elem(s):
 
 
 def str_contains_cvml(s):
-    return '≤' in s and '≥' in s
+    return '[[' in s and ']]' in s
 
 
 def expand_cvml_tag_core(mu, lang):
