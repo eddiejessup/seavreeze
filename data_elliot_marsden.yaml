@@ -1,5 +1,5 @@
 name: 'Elliot Marsden'
-date_of_birth: '1989-02-14'
+date_of_birth: '[[mu]][[tex]]1989\kern 0.10em -\kern 0.08em 02\kern 0.08em -\kern -0.04em 14[[/tex]][[html]]1989-02-14[[/html]][[/mu]]'
 address:
     street: 'Sarphatistraat 76/3'
     city: 'Amsterdam'
@@ -22,7 +22,7 @@ jobs:
             - 'Extensive experience implementing [[mu]][[tex]]$\textrm{A}/\textrm{B}$[[/tex]][[html]]A/B[[/html]][[/mu]] testing at scale to measure small effects, and analysing experimentation practices to improve results'
             - 'Contributed internal tools, and started and currently organise weekly knowledge sharing events.'
     -
-        date: 'Sep 2015 – April 2016'
+        date: 'Sep 2015 – Apr 2016'
         employer: '[[link]][[url]]http://ecometrica.com[[/url]][[name]]Ecometrica[[/name]][[/link]]'
         role: 'Software Developer'
         summary: 'Development of a web platform providing visualization and analysis of geo-spatial data.'
@@ -60,10 +60,10 @@ skill_sections:
                 summary: 'Used Git and Mercurial extensively in and out of work.'
             -
                 title: 'Programming languages'
-                summary: "Extremely capable using Python, having used it for diverse applications such as web scraping, web applications, numerical simulations and language parsing. I've also experience using Javascript, C[[small]]++[[/small]] and Go."
+                summary: "Very capable using Python, having used it for diverse applications such as web scraping, web applications, numerical simulations and language parsing. Also capable using Javascript, C[[small]]++[[/small]], Java and Go."
             -
                 title: 'Back-end web development'
-                summary: 'Proficient with Django and Flask web frameworks through my work at Ecometrica as well as personal projects.'
+                summary: 'Proficient with Django and Flask web frameworks through my work at Ecometrica as well as many personal projects.'
             -
                 title: 'Front-end web development'
                 summary: 'Familiar with typical front-end technologies through working on a single-page application at Ecometrica.'
@@ -75,7 +75,7 @@ skill_sections:
                 summary: 'Experience using A[[small]]WS[[/small]] for database storage (R[[small]]DS[[/small]]), caching (Elasticache), storage (S3), hosting (EC2) and task scheduling (Lambda).'
             -
                 title: 'Scientific and numerical computing'
-                summary: "Frequently used software such as Numpy, Scipy, Cython in my Masters' and PhD."
+                summary: "Frequently used software such as Numpy, Scipy, Cython during Masters and PhD."
             -
                 title: 'Theory'
                 summary: 'Familiar with complexity theory, algorithm analysis and data structures.'
@@ -90,29 +90,25 @@ skill_sections:
                 summary: 'Skilled making plots and dashboards using Matplotlib, Bokeh, d3.js, Grafana and Tableau.'
             -
                 title: 'Machine learning'
-                summary: 'Familiar with typical models such as regression, naïve Bayes and random forests. Experience implementing these with Scikit-learn, and H2O. Have also implemented neural networks for image classification using Tensor Flow.'
+                summary: 'Experience training and deploying models to production, implemented with Scikit-learn, H2O and Tensor Flow.'
 experiences:
     -
         title: 'Teaching'
-        date: '2011 – 2015'
         points:
             - 'Taught version control, Python and Linux skills to PhD students at two-day [[link]][[url]]http://software-carpentry.org[[/url]][[name]]Software Carpentry[[/name]][[/link]] [[link]][[url]]http://software-carpentry.org/workshops[[/url]][[name]]Boot Camps[[/name]][[/link]] in Edinburgh and Bath.'
             - 'Employed as a teaching assistant during my PhD, leading tutorial discussions and helping undergraduate students in problem workshops.'
     -
-        title: 'Academic communication'
-        date: '2011 – 2015'
+        title: 'Communication'
         points:
             - 'Given talks at conferences, including at [[link]][[url]]http://ist.ac.at/stochastic-biology[[/url]][[name]][[cite]]Stochastic Biology: from Cells to Populations[[/cite]][[/name]][[/link]]; as an invited speaker at the [[link]][[url]]http://www.nbi.ku.dk/english/research/biophysics[[/url]][[name]]Niels Bohr Institute[[/name]][[/link]] and at the [[link]][[url]]http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx[[/url]][[name]]N[[small]]ETADIS[[/small]] Summer School[[/name]][[/link]].'
             - 'Presented seminars, journal clubs and theory clubs within the Edinburgh research group.'
             - 'First prize for [[cite]]Bacterial Chemotaxis in Confining Geometries[[/cite]] in annual PhD poster competition at the University of Edinburgh.'
     -
         title: 'Personal projects'
-        date: '2012 – Present'
         points:
             - 'Re-implementated the document preparation language [[mu]][[tex]]\TeX\[[/tex]][[html]]TeX[[/html]][[/mu]] in Python.'
             - 'Created [[link]][[url]]https://packagecontrol.io/packages/Transcrypt[[/url]][[name]][[cite]]Transcrypt[[/cite]][[/name]][[/link]], a plugin for the text editor Sublime Text to allow in-place text encryption.'
             - 'Wrote [[link]][[url]]https://github.com/eddiejessup/sneezly[[/url]][[name]]Sneezly[[/name]][[/link]], an event logging service with a chat bot front-end.'
     -
         title: 'Open source contributions'
-        date: '2013 – Present'
         summary: 'Contributed to various projects, including Pandas, knitpy and Jupyter.'
