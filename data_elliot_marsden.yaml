@@ -88,3 +88,49 @@ experiences:
             - 'Used the NoS[[small]]QL[[/small]] database [[mu]][[tex]]\hbox{MongoD\small{B}}[[/tex]][[html]]MongoDB[[/html]][[/mu]] as part of a distributed system to record sports betting odds.'
             - 'Knowledge of computer science fundamentals, such as complexity theory, algorithm analysis and data structures.'
             - 'Awareness of modern development practices and tools, such as unit testing, U[[small]]ML[[/small]], debugging and performance profiling.'
+skill_sections:
+    -
+        title: 'Software Development'
+        skills:
+            -
+                title: 'Operating Systems'
+                summary: 'Comfortable developing in Linux and MacOS environments.'
+            -
+                title: 'Version control'
+                summary: 'Git and Mercurial.'
+            -
+                title: 'Programming languages'
+                summary: "Very capable using Python. Competent using Javascript, C[[small]]++[[/small]], Java and Go. Superficial experience with Scala, Rust and D."
+            -
+                title: 'Back-end web development'
+                summary: 'Django and Flask web frameworks.'
+            -
+                title: 'Front-end web development'
+                summary: 'Standard web technologies, H[[small]]TML[[/small]], C[[small]]SS[[/small]], Javascript and related tools.'
+            -
+                title: 'Databases'
+                summary: 'MyS[[small]]QL[[/small]], PostgreS[[small]]QL[[/small]], [[mu]][[tex]]\hbox{MongoD\small{B}}[[/tex]][[html]]MongoDB[[/html]][[/mu]] and Redis.'
+            -
+                title: 'Amazon Web Services'
+                summary: 'Database storage (R[[small]]DS[[/small]]), caching (Elasticache), storage (S3), hosting (EC2) and task scheduling (Lambda).'
+            -
+                title: 'Scientific and numerical computing'
+                summary: "Numpy, Scipy and Cython."
+            -
+                title: 'Theory'
+                summary: 'Complexity theory, algorithm analysis and data structures.'
+    -
+        title: 'Data Science'
+        skills:
+            -
+                title: 'Hadoop'
+                summary: 'Hive, Spark and Oozie.'
+            -
+                title: 'Machine learning'
+                summary: 'Scikit-learn, Spark ML and Tensor Flow.'
+            -
+                title: 'Data analysis'
+                summary: 'Pandas, StatsModels and Jupyter.'
+            -
+                title: 'Data visualization'
+                summary: 'Matplotlib, Bokeh, d3.js, Grafana and Tableau.'
