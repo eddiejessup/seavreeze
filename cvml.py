@@ -22,7 +22,7 @@ def parse_to_cvml_elem(s):
     try:
         return ET.fromstring(s_wrapped)
     except ET.ParseError as exc:
-        raise ValueError('ERROR in string: {s_wrapped}') from exc
+        raise ValueError(f'ERROR in string: {s_wrapped}') from exc
 
 
 def str_contains_cvml(s):
