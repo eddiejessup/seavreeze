@@ -9,7 +9,7 @@
 \begin{document}
 
     \title{<< name >>}
-
+    \vspace{-1em}
     \parbox{0.5\textwidth}{
         \begin{tabbing}
             \hspace{3cm} \= \kill
