@@ -44,7 +44,7 @@ educations:
     -
         date: '2007 – 2011'
         qualification: 'MPhys in Theoretical Physics'
-        location: 'Van Mildert College, Durham University'
+        location: 'Durham University'
         points:
             - 'Graduated First Class with Honours.'
             - 'Thesis on [[cite]]Computational Analysis of Shear Banding in Shear Startup and L[[small]]AOS[[/small]] Regimes[[/cite]], that is, on the complex behaviour of polymeric fluids as they flow.'
