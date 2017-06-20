@@ -73,10 +73,31 @@
         <% endfor %>
     <% endif %>
 
-    <% if skill_sections %>
+    <% if experiences %>
     \pagebreak[0]
+    \hskip 5ex
 
-    \section{Skills}
+    \section{Experience}
+
+        <% for experience in experiences %>
+        \project{<< experience.date >>}{<< experience.title >>}{
+            <% if experience.summary %>\tabfill{<< experience.summary >>}<% endif %>
+            <% if experience.points %>
+            \begin{itemize-noindent}
+            <% for point in experience.points %>
+                \item{\tabfill{<< point >>}}
+            <% endfor %>
+            \end{itemize-noindent}
+            <% endif %>
+        }
+        <% endfor %>
+    <% endif %>
+
+    <% if skill_sections %>
+    \pagebreak
+    \hskip 5ex
+
+    \section{Summary of skills}
 
         <% for skill_section in skill_sections %>
         \subsection{<< skill_section.title >>}
@@ -93,25 +114,7 @@
         }
         <% endfor %>
         <% endfor %>
-    <% endif %>
 
-    <% if experiences %>
-    \pagebreak[0]
-
-    \section{Experience}
-
-        <% for experience in experiences %>
-        \project{<< experience.date >>}{<< experience.title >>}{
-            <% if experience.summary %>\tabfill{<< experience.summary >>}<% endif %>
-            <% if experience.points %>
-            \begin{itemize-noindent}
-            <% for point in experience.points %>
-                \item{\tabfill{<< point >>}}
-            <% endfor %>
-            \end{itemize-noindent}
-            <% endif %>
-        }
-        <% endfor %>
     <% endif %>
 
 \end{document}
