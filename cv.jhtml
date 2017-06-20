@@ -54,7 +54,33 @@
         </ul>
     </li>
     <li>
-        <h2>Skills</h2>
+        <h2>Experience</h2>
+        <ul class="subsection">
+            {% for experience in experiences %}
+            <li>
+                <h3 class="title">{{ experience.title }}</h3>
+                {% if experience.summary or experience.points %}
+                <div class="description">
+                {% if experience.summary %}
+                    <p>{{ experience.summary }}</p>
+                {% endif %}
+                {% if experience.points %}
+                    <ul class="description-points">
+                        {% for point in experience.points %}
+                        <li>
+                        {{ point }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li>
+        <h2>Summary of skills</h2>
         <ul class="subsection">
             {% for skill_section in skill_sections %}
             <li>
@@ -82,32 +108,6 @@
                     </li>
                     {% endfor %}
                 </ul>
-            </li>
-            {% endfor %}
-        </ul>
-    </li>
-    <li>
-        <h2>Experience</h2>
-        <ul class="subsection">
-            {% for experience in experiences %}
-            <li>
-                <h3 class="title">{{ experience.date }}: {{ experience.title }}</h3>
-                {% if experience.summary or experience.points %}
-                <div class="description">
-                {% if experience.summary %}
-                    <p>{{ experience.summary }}</p>
-                {% endif %}
-                {% if experience.points %}
-                    <ul class="description-points">
-                        {% for point in experience.points %}
-                        <li>
-                        {{ point }}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-                </div>
-                {% endif %}
             </li>
             {% endfor %}
         </ul>
