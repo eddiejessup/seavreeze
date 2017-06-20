@@ -15,20 +15,21 @@ jobs:
         date: 'May 2016 – Present'
         employer: '[[link]][[url]]http://booking.com[[/url]][[name]]Booking.com[[/name]][[/link]]'
         role: 'Data Scientist'
-        summary: 'Analysis of large data-sets to identify trends to allow appropriate business decisions.'
         points:
-            - 'Querying petabyte-scale data using Hadoop and related tools such as Hive and Spark to answer business questions.'
-            - 'Working with decision-makers to suggest practical actions, and ways to quantitatively test their success.'
-            - 'Extensive experience implementing [[mu]][[tex]]$\textrm{A}/\textrm{B}$[[/tex]][[html]]A/B[[/html]][[/mu]] testing at scale to measure small effects, and analysing experimentation practices to improve results'
-            - 'Contributed internal tools, and started and currently organise weekly knowledge sharing events.'
+            - 'Analysis to answer business questions, guiding decision-makers with data, and developing ways to quantitatively test their success.'
+            - 'Building predictive models with Scikit-learn and Spark ML.'
+            - 'Querying petabyte-scale data using Hadoop-ecosystem tools such as Hive-S[[small]]QL[[/small]], Spark and Oozie.'
+            - 'Implementing [[mu]][[tex]]$\textrm{A}/\textrm{B}$[[/tex]][[html]]A/B[[/html]][[/mu]] tests at scale. Doing meta-analysis of experimentation practice to improve results, and designing advanced statistical tests to increase ability to detect small effects.'
+            - 'Other tools used include Matplotlib and Bokeh for data visualization, Grafana and Tableau for building dashboards, Jupyter, Git and MyS[[small]]QL[[/small]].'
     -
         date: 'Sep 2015 – Apr 2016'
         employer: '[[link]][[url]]http://ecometrica.com[[/url]][[name]]Ecometrica[[/name]][[/link]]'
         role: 'Software Developer'
-        summary: 'Development of a web platform providing visualization and analysis of geo-spatial data.'
         points:
-            - 'Back-end development using Django, front-end development on the single-page application, and deployment with Amazon Web Services'
-            - 'Independently drove project to create a tool for interactive analysis of geo-spatial data by users, through Python and Pandas.'
+            - 'Developed the back-end and front-end of the Django-powered single-page web application.'
+            - 'Helped design architecture, and migrate application to Amazon Web Services, becoming familiar with most of its components.'
+            - 'Independently drove project to create a tool for interactive analysis of geo-spatial data, through Pandas, Numpy and Scipy.'
+            - 'Other tools used include Flask, Mercurial, Celery, PostgreS[[small]]QL[[/small]] and Redis.'
 educations:
     -
         date: '2011 – 2015'
@@ -36,10 +37,10 @@ educations:
         location: 'University of Edinburgh'
         points:
             - 'Thesis on [[cite]]The collective dynamics of self-propelled particles in confining environments[[/cite]], that is, on the movement of large numbers of bacteria in enclosed spaces such as water droplets.'
-            - 'Code written mainly in Python, interfaced with numerics written in C.'
-            - 'Close collaboration with theoretical physicists and experimental biologists.'
-            - 'Interdisciplinary work of interest to audiences ranging from statistical physics to molecular biology.'
+            - 'Numerical simulation and data analysis, both done mainly in Python using Numpy, Scipy and Cython.'
+            - 'Close interdisciplinary collaboration with theoretical physicists and experimental biologists, on work of interest to audiences ranging from statistical physics to molecular biology.'
             - 'Publication of work in [[link]][[url]]http://dx.doi.org/10.1039/C3SM52358F[[/url]][[name]][[cite]]Soft Matter[[/cite]][[/name]][[/link]], and on the front cover of [[link]][[url]]http://dx.doi.org/10.1103/PhysRevLett.113.268101[[/url]][[name]][[cite]]Physical Review Letters[[/cite]][[/name]][[/link]].'
+            - 'Spoke at many academic conferences, including at [[link]][[url]]http://ist.ac.at/stochastic-biology[[/url]][[name]][[cite]]Stochastic Biology: from Cells to Populations[[/cite]][[/name]][[/link]]; as an invited speaker at the [[link]][[url]]http://www.nbi.ku.dk/english/research/biophysics[[/url]][[name]]Niels Bohr Institute[[/name]][[/link]] and at the [[link]][[url]]http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx[[/url]][[name]]N[[small]]ETADIS[[/small]] Summer School[[/name]][[/link]].'
     -
         date: '2007 – 2011'
         qualification: 'MPhys in Theoretical Physics'
@@ -48,67 +49,37 @@ educations:
             - 'Graduated First Class with Honours.'
             - 'Thesis on [[cite]]Computational Analysis of Shear Banding in Shear Startup and L[[small]]AOS[[/small]] Regimes[[/cite]], that is, on the complex behaviour of polymeric fluids as they flow.'
             - 'Contributed to publication in [[link]][[url]]http://dx.doi.org/10.1103/PhysRevLett.110.086001[[/url]][[name]][[cite]]Physical Review Letters[[/cite]][[/name]][[/link]].'
-skill_sections:
-    -
-        title: 'Software Development'
-        skills:
-            -
-                title: 'Operating Systems'
-                summary: 'Entirely comfortable in Linux, MacOS and Windows environments.'
-            -
-                title: 'Version control'
-                summary: 'Used Git and Mercurial extensively in and out of work.'
-            -
-                title: 'Programming languages'
-                summary: "Very capable using Python, having used it for diverse applications such as web scraping, web applications, numerical simulations and language parsing. Also capable using Javascript, C[[small]]++[[/small]], Java and Go."
-            -
-                title: 'Back-end web development'
-                summary: 'Proficient with Django and Flask web frameworks through my work at Ecometrica as well as many personal projects.'
-            -
-                title: 'Front-end web development'
-                summary: 'Familiar with typical front-end technologies through working on a single-page application at Ecometrica.'
-            -
-                title: 'Databases'
-                summary: 'Experience with MyS[[small]]QL[[/small]] and PostgreS[[small]]QL[[/small]] databases; NoS[[small]]QL[[/small]] databases [[mu]][[tex]]\hbox{MongoD\small{B}}[[/tex]][[html]]MongoDB[[/html]][[/mu]] and Redis, and metric storage database Graphite.'
-            -
-                title: 'Amazon Web Services'
-                summary: 'Experience using A[[small]]WS[[/small]] for database storage (R[[small]]DS[[/small]]), caching (Elasticache), storage (S3), hosting (EC2) and task scheduling (Lambda).'
-            -
-                title: 'Scientific and numerical computing'
-                summary: "Frequently used software such as Numpy, Scipy, Cython during Masters and PhD."
-            -
-                title: 'Theory'
-                summary: 'Familiar with complexity theory, algorithm analysis and data structures.'
-    -
-        title: 'Data Science'
-        skills:
-            -
-                title: 'Analysing data-sets'
-                summary: 'At ease using Hadoop ecosystem tools: Hive, Spark, Oozie, and Pandas.'
-            -
-                title: 'Data visualization'
-                summary: 'Skilled making plots and dashboards using Matplotlib, Bokeh, d3.js, Grafana and Tableau.'
-            -
-                title: 'Machine learning'
-                summary: 'Experience training and deploying models to production, implemented with Scikit-learn, H2O and Tensor Flow.'
 experiences:
+    -
+        title: '[[link]][[url]]http://github.com/eddiejessup/nex[[/url]][[name]][[mu]][[tex]]\TeX[[/tex]][[html]]TeX[[/html]][[/mu]][[/name]][[/link]]'
+        points:
+            - 'Ongoing work to re-implement the interpreter of the document preparation language [[mu]][[tex]]\TeX\[[/tex]][[html]]TeX[[/html]][[/mu]] in Python.'
+            - 'Required implementing complex lexing and parsing logic, containing a mixture of context-free and context-sensitive grammar.'
+    -
+        title: '[[link]][[url]]https://github.com/eddiejessup/sneezly[[/url]][[name]][[cite]]Sneezly[[/cite]][[/name]][[/link]]'
+        points:
+            - 'Event logging service with a chat bot front-end.'
+            - 'Back-end implemented using Django channels, allowing support for websocket connections'
+            - 'Support for multiple front-end interfaces, including a Slack chat-bot.'
+    -
+        title: '[[link]][[url]]http://elliotmarsden.com/seavreeze.html[[/url]][[name]][[cite]]Seavreeze[[/cite]][[/name]][[/link]]'
+        summary: 'Tool to generate a [[small]]CV[[/small]] in multiple output formats, including P[[small]]DF[[/small]] and H[[small]]TML[[/small]], from a common input.'
+    -
+        title: '[[link]][[url]]https://packagecontrol.io/packages/Transcrypt[[/url]][[name]][[cite]]Transcrypt[[/cite]][[/name]][[/link]]'
+        summary: 'Plugin for the text editor Sublime Text to do in-place text encryption.'
+    -
+        title: 'Open source contributions'
+        summary: 'Contributed to various projects, including Pandas, knitpy and Jupyter.'
     -
         title: 'Teaching'
         points:
             - 'Taught version control, Python and Linux skills to PhD students at two-day [[link]][[url]]http://software-carpentry.org[[/url]][[name]]Software Carpentry[[/name]][[/link]] [[link]][[url]]http://software-carpentry.org/workshops[[/url]][[name]]Boot Camps[[/name]][[/link]] in Edinburgh and Bath.'
-            - 'Employed as a teaching assistant during my PhD, leading tutorial discussions and helping undergraduate students in problem workshops.'
+            - 'Worked as a teaching assistant during my PhD, leading tutorials and helping in undergraduate student workshops.'
     -
-        title: 'Communication'
+        title: 'Miscellaneous skills'
         points:
-            - 'Given talks at conferences, including at [[link]][[url]]http://ist.ac.at/stochastic-biology[[/url]][[name]][[cite]]Stochastic Biology: from Cells to Populations[[/cite]][[/name]][[/link]]; as an invited speaker at the [[link]][[url]]http://www.nbi.ku.dk/english/research/biophysics[[/url]][[name]]Niels Bohr Institute[[/name]][[/link]] and at the [[link]][[url]]http://www.kcl.ac.uk/nms/depts/mathematics/events/eventsrecords/netadissummerschool.aspx[[/url]][[name]]N[[small]]ETADIS[[/small]] Summer School[[/name]][[/link]].'
-            - 'Presented seminars, journal clubs and theory clubs within the Edinburgh research group.'
-            - 'First prize for [[cite]]Bacterial Chemotaxis in Confining Geometries[[/cite]] in annual PhD poster competition at the University of Edinburgh.'
-    -
-        title: 'Personal projects'
-        points:
-            - 'Re-implementated the document preparation language [[mu]][[tex]]\TeX\[[/tex]][[html]]TeX[[/html]][[/mu]] in Python.'
-            - 'Created [[link]][[url]]https://packagecontrol.io/packages/Transcrypt[[/url]][[name]][[cite]]Transcrypt[[/cite]][[/name]][[/link]], a plugin for the text editor Sublime Text to allow in-place text encryption.'
-            - 'Wrote [[link]][[url]]https://github.com/eddiejessup/sneezly[[/url]][[name]]Sneezly[[/name]][[/link]], an event logging service with a chat bot front-end.'
-    -
-        title: 'Open source contributions'
-        summary: 'Contributed to various projects, including Pandas, knitpy and Jupyter.'
+            - 'Reasonable practical experience with Javascript, C[[small]]++[[/small]], Java and Go through personal projects, as well as more cursory experience with Scala, Rust and D.'
+            - 'Used Tensor Flow to train convolutional neural networks to identify playing cards from images.'
+            - 'Used the NoS[[small]]QL[[/small]] database [[mu]][[tex]]\hbox{MongoD\small{B}}[[/tex]][[html]]MongoDB[[/html]][[/mu]] as part of a distributed system to log sports betting odds.'
+            - 'Knowledge of computer science fundamentals, such as complexity theory, algorithm analysis and data structures.'
+            - 'Awareness of modern development practices and tools, such as unit testing, U[[small]]ML[[/small]], debugging and performance profiling.'
