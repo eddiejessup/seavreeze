@@ -17,7 +17,7 @@ jobs:
         role: 'Data Scientist'
         points:
             - 'Answering business questions, helping people make decisions and developing ways to quantitatively measure their success.'
-            - 'Building predictive models using machine learning, with Scikit-learn and Spark ML.'
+            - 'Building predictive models using machine learning, with Scikit-learn and Spark[[tie]][[/tie]]ML.'
             - 'Querying petabyte-scale data using Hadoop-ecosystem tools such as Hive-S[[small]]QL[[/small]], Spark and Oozie.'
             - 'Implementing [[mu]][[tex]]$\textrm{A}/\textrm{B}$[[/tex]][[html]]A/B[[/html]][[/mu]] tests at scale. Doing meta-analysis of experimentation practice to improve results, and designing advanced statistical tests to increase ability to detect small effects.'
             - 'Other tools used include Matplotlib and Bokeh for data visualization, Grafana and Tableau for building dashboards, Jupyter, Git and MyS[[small]]QL[[/small]].'

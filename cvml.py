@@ -59,6 +59,11 @@ def expand_cvml_tag_core(mu, lang):
             s = r'\smaller{%s}' % contents
         elif lang == 'html':
             s = r'<small>%s</small>' % contents
+    elif mu.tag == 'tie':
+        if lang == 'tex':
+            s = '~'
+        else:
+            s = ' '
     else:
         raise ValueError(f'No CVML tag "{mu.tag}"')
     if mu.tail is not None:
