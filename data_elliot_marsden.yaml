@@ -88,7 +88,7 @@ experiences:
             - 'Reasonable practical experience with Javascript, C[[small]]++[[/small]], Java and Go through personal projects, as well as more cursory experience with Scala, Rust and D.'
             - 'Used the NoS[[small]]QL[[/small]] database [[mu]][[tex]]\hbox{MongoD\small{B}}[[/tex]][[html]]MongoDB[[/html]][[/mu]] as part of a distributed system to record sports betting odds.'
             - 'Knowledge of computer science fundamentals, such as complexity theory, algorithm analysis and data structures.'
-            - 'Awareness of modern development practices and tools, such as unit testing, U[[small]]ML[[/small]], debugging and performance profiling.'
+            - 'Aware of modern development practices and tools, such as unit testing, U[[small]]ML[[/small]], debugging and performance profiling.'
 skill_sections:
     -
         title: 'Data Science'
