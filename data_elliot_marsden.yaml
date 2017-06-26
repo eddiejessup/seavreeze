@@ -110,7 +110,7 @@ skill_sections:
         skills:
             -
                 title: 'Operating Systems'
-                summary: 'Comfortable developing in Linux and MacOS environments.'
+                summary: 'Comfortable working in Linux and MacOS.'
             -
                 title: 'Version control'
                 summary: 'Git and Mercurial.'
