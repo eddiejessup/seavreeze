@@ -53,7 +53,7 @@ experiences:
     -
         title: 'C[[small]]UPED[[/small]]'
         points:
-            - 'Worked to assess and implement the statistical technique known as [[link]][[url]]http://bit.ly/expCUPED[[/url]][[name]]C[[small]]UPED[[/small]][[/name]][[/link]], described in [[cite]]Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data[[/cite]], by Alex Deng et al.'
+            - 'Worked to assess and implement the statistical technique [[link]][[url]]http://bit.ly/expCUPED[[/url]][[name]]C[[small]]UPED[[/small]][[/name]][[/link]], described in [[cite]]Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data[[/cite]], by Alex Deng et al.'
             - Aimed at increasing the ability of A/B tests to detect small effects.
     -
         title: '[[link]][[url]]http://github.com/eddiejessup/nex[[/url]][[name]][[mu]][[tex]]\TeX[[/tex]][[html]]TeX[[/html]][[/mu]][[/name]][[/link]]'
