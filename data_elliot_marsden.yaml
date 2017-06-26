@@ -84,7 +84,7 @@ experiences:
         title: 'Other skills'
         points:
             - 'Used Tensor Flow to train convolutional neural networks to identify playing cards from images.'
-            - 'Familiar with theoretical foundations of statistical learning, and with modern algorithms such as gradient boosting, random forests, various flavours of neural networks, and such.'
+            - 'Familiar with theoretical foundations of statistical learning, and with modern algorithms such as gradient boosting, random forests and various flavours of neural networks.'
             - 'Reasonable practical experience with Javascript, C[[small]]++[[/small]], Java and Go through personal projects, as well as more cursory experience with Scala, Rust and D.'
             - 'Used the NoS[[small]]QL[[/small]] database [[mu]][[tex]]\hbox{MongoD\small{B}}[[/tex]][[html]]MongoDB[[/html]][[/mu]] as part of a distributed system to record sports betting odds.'
             - 'Knowledge of computer science fundamentals, such as complexity theory, algorithm analysis and data structures.'
