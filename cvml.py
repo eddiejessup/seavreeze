@@ -53,6 +53,12 @@ def expand_cvml_tag_core(mu, lang):
             s = r'\textit{%s}' % contents
         elif lang == 'html':
             s = r'<cite>%s</cite>' % contents
+    elif mu.tag == 'emph':
+        contents = expand(mu)
+        if lang == 'tex':
+            s = r'\emph{%s}' % contents
+        elif lang == 'html':
+            s = r'<em>%s</em>' % contents
     elif mu.tag == 'small':
         contents = expand(mu)
         if lang == 'tex':

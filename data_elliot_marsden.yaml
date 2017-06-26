@@ -105,6 +105,12 @@ skill_sections:
             -
                 title: 'Data visualization'
                 summary: 'Matplotlib, Bokeh, d3.js, Grafana and Tableau.'
+            -
+                title: 'Theory'
+                points:
+                    - 'Statistical techniques such as parametric significance testing, bootstrapping and permutation testing.'
+                    - 'Algorithms for machine learning such as regression, [[emph]]k[[/emph]]-nearest neighbours, gradient boosting, random forests, neural networks and unsupervized clustering.'
+                    - 'General techniques of machine learning such as regularization, feature selection, dimensionality reduction and cross validation.'
     -
         title: 'Software Development'
         skills:
