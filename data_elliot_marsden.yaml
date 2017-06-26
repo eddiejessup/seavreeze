@@ -17,7 +17,7 @@ jobs:
         role: 'Data Scientist'
         points:
             - 'Answering business questions, helping people make decisions and developing ways to quantitatively measure their success.'
-            - 'Building predictive models using machine learning, with Scikit-learn and Spark[[tie]][[/tie]]ML.'
+            - 'Building predictive models using machine learning, with Scikit-learn, Spark[[tie]][[/tie]]ML and H2O.'
             - 'Querying petabyte-scale data using Hadoop-ecosystem tools such as Hive-S[[small]]QL[[/small]], Spark and Oozie.'
             - 'Implementing [[mu]][[tex]]$\textrm{A}/\textrm{B}$[[/tex]][[html]]A/B[[/html]][[/mu]] tests at scale. Doing meta-analysis of experimentation practice to improve results, and designing advanced statistical tests to increase ability to detect small effects.'
             - 'Other tools used include Matplotlib and Bokeh for data visualization, Grafana and Tableau for building dashboards, Jupyter, Git and MyS[[small]]QL[[/small]].'
@@ -90,6 +90,21 @@ experiences:
             - 'Awareness of modern development practices and tools, such as unit testing, U[[small]]ML[[/small]], debugging and performance profiling.'
 skill_sections:
     -
+        title: 'Data Science'
+        skills:
+            -
+                title: 'Hadoop'
+                summary: 'Hive, Spark and Oozie.'
+            -
+                title: 'Machine learning'
+                summary: 'Scikit-learn, Spark ML, H2O and Tensor Flow.'
+            -
+                title: 'Data analysis'
+                summary: 'Pandas, StatsModels and Jupyter.'
+            -
+                title: 'Data visualization'
+                summary: 'Matplotlib, Bokeh, d3.js, Grafana and Tableau.'
+    -
         title: 'Software Development'
         skills:
             -
@@ -119,18 +134,3 @@ skill_sections:
             -
                 title: 'Theory'
                 summary: 'Complexity theory, algorithm analysis and data structures.'
-    -
-        title: 'Data Science'
-        skills:
-            -
-                title: 'Hadoop'
-                summary: 'Hive, Spark and Oozie.'
-            -
-                title: 'Machine learning'
-                summary: 'Scikit-learn, Spark ML and Tensor Flow.'
-            -
-                title: 'Data analysis'
-                summary: 'Pandas, StatsModels and Jupyter.'
-            -
-                title: 'Data visualization'
-                summary: 'Matplotlib, Bokeh, d3.js, Grafana and Tableau.'
