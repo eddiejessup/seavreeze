@@ -37,7 +37,7 @@ educations:
         location: 'University of Edinburgh'
         points:
             - 'Thesis on [[cite]]The collective dynamics of self-propelled particles in confining environments[[/cite]], that is, on the movement of large numbers of bacteria in enclosed spaces such as water droplets.'
-            - 'Numerical simulation and statistical analysis, both done mainly in Python using Numpy, Scipy and Cython.'
+            - 'Statistical analysis and numerical simulation, both done mainly in Python using Numpy, Scipy and Cython.'
             - 'Close interdisciplinary collaboration with theoretical physicists and experimental biologists, on work of interest to audiences ranging from statistical physics to molecular biology.'
             - 'Publication of work in [[link]][[url]]http://dx.doi.org/10.1039/C3SM52358F[[/url]][[name]][[cite]]Soft Matter[[/cite]][[/name]][[/link]], and on the front cover of [[link]][[url]]http://dx.doi.org/10.1103/PhysRevLett.113.268101[[/url]][[name]][[cite]]Physical Review Letters[[/cite]][[/name]][[/link]].'
             - 'Spoke at many academic conferences, including at [[cite]]Stochastic Biology: from Cells to Populations[[/cite]]; as an invited speaker at the [[link]][[url]]http://www.nbi.ku.dk/english/research/biophysics[[/url]][[name]]Niels Bohr Institute[[/name]][[/link]] and at the N[[small]]ETADIS[[/small]] Summer School.'
@@ -83,8 +83,9 @@ experiences:
     -
         title: 'Other skills'
         points:
-            - 'Reasonable practical experience with Javascript, C[[small]]++[[/small]], Java and Go through personal projects, as well as more cursory experience with Scala, Rust and D.'
             - 'Used Tensor Flow to train convolutional neural networks to identify playing cards from images.'
+            - 'Familiar with theoretical foundations of statistical learning, and with modern algorithms such as gradient boosting, random forests, various flavours of neural networks, and such.'
+            - 'Reasonable practical experience with Javascript, C[[small]]++[[/small]], Java and Go through personal projects, as well as more cursory experience with Scala, Rust and D.'
             - 'Used the NoS[[small]]QL[[/small]] database [[mu]][[tex]]\hbox{MongoD\small{B}}[[/tex]][[html]]MongoDB[[/html]][[/mu]] as part of a distributed system to record sports betting odds.'
             - 'Knowledge of computer science fundamentals, such as complexity theory, algorithm analysis and data structures.'
             - 'Awareness of modern development practices and tools, such as unit testing, U[[small]]ML[[/small]], debugging and performance profiling.'
