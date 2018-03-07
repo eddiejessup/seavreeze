@@ -1,2 +1,4 @@
-Jinja2>=2.9.6
-PyYAML>=3.12
+Jinja2==2.10
+MarkupSafe==1.0
+PyYAML==3.12
+-e git+https://github.com/eddiejessup/cv.git@b3d71d71be1644d6edfee38a0c3fe547ee4ec278#egg=seavreeze
