@@ -1,0 +1,22 @@
+\documentclass[10pt]{letter}
+
+\usepackage[a4paper]{geometry}
+\input{structure.tex}
+
+\addtolength{\medskipamount}{-1\medskipamount}
+
+\signature{<< name >>}
+
+\begin{document}
+
+    \begin{letter}{}
+        \opening{<< opening >>,}
+
+        << cover >>
+
+        \closing{<< closing >>,}
+
+    \end{letter}        
+
+\end{document}
+

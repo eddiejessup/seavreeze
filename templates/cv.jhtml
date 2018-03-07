@@ -1,0 +1,115 @@
+<ul class="section">
+    <li>
+        <h2>Employment</h2>
+        <ul class="subsection">
+            {% for job in jobs %}
+            <li>
+                <h3 class="title">{{ job.date }}: {{ job.role }}</h3>
+                <h4 class="detail">{{ job.employer }}</h4>
+                {% if job.summary or job.points %}
+                <div class="description">
+                {% if job.summary %}
+                    <p>{{ job.summary }}</p>
+                {% endif %}
+                {% if job.points %}
+                    <ul class="description-points">
+                    {% for point in job.points %}
+                        <li>
+                        {{ point }}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li>
+        <h2>Education</h2>
+        <ul class="subsection">
+            {% for education in educations %}
+            <li>
+                <h3 class="title">{{ education.date }}{% if education.qualification %}: {{ education.qualification }}{% endif %}</h3>
+                <h4 class="detail">{{ education.location }}</h4>
+                {% if education.summary or education.points %}
+                <div class="description">
+                {% if education.summary %}
+                    <p>{{ education.summary }}</p>
+                {% endif %}
+                {% if education.points %}
+                    <ul class="description-points">
+                    {% for point in education.points %}
+                        <li>
+                        {{ point }}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li>
+        <h2>Experience</h2>
+        <ul class="subsection">
+            {% for experience in experiences %}
+            <li>
+                <h3 class="title">{{ experience.title }}</h3>
+                {% if experience.summary or experience.points %}
+                <div class="description">
+                {% if experience.summary %}
+                    <p>{{ experience.summary }}</p>
+                {% endif %}
+                {% if experience.points %}
+                    <ul class="description-points">
+                        {% for point in experience.points %}
+                        <li>
+                        {{ point }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li>
+        <h2>Summary of skills</h2>
+        <ul class="subsection">
+            {% for skill_section in skill_sections %}
+            <li>
+                <h3>{{ skill_section.title }}</h3>
+                <ul class="skill-section">
+                    {% for skill in skill_section.skills %}
+                    <li>
+                        <h3 class="title">{{ skill.title }}</h3>
+                        {% if skill.summary or skill.points %}
+                        <div class="description">
+                        {% if skill.summary %}
+                            <p>{{ skill.summary }}</p>
+                        {% endif %}
+                        {% if skill.points %}
+                            <ul class="description-points">
+                            {% for point in skill.points %}
+                                <li>
+                                {{ point }}
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
+                        </div>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+</ul>
